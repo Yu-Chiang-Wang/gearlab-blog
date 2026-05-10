@@ -1,0 +1,35 @@
+baseURL = "https://yu-chiang.me/"
+languageCode = "zh-tw"
+title = "GearLab｜3C 評測選物"
+theme = "PaperMod"
+defaultContentLanguage = "zh-tw"
+
+[params]
+  author = "GearLab"
+  description = "幫你找到平板配件與充電器的最佳解法，不踩雷、不浪費錢。"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+
+  [params.homeInfoParams]
+    Title = "GearLab 選物研究室 🔬"
+    Content = "幫你用數據和實測，找到 iPad 配件、GaN 充電器的最佳解法。"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "關於"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "posts"
+    name = "評測"
+    url = "/posts/"
+    weight = 20
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
