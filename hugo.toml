@@ -3,6 +3,7 @@ languageCode = "zh-tw"
 title = "GearLab｜3C 評測選物"
 theme = "PaperMod"
 defaultContentLanguage = "zh-tw"
+googleAnalytics = "G-23LVXQLZNR"
 
 [params]
   author = "GearLab"
