@@ -1,0 +1,130 @@
+{{- define "main" }}
+<div class="links-page">
+  <div class="links-header">
+    <h1>GearLab 選物研究室 🔬</h1>
+    <p>平板配件 × GaN 充電器｜幫你找到不踩雷的 3C 好物</p>
+  </div>
+
+  <div class="links-section">
+    <h2>🏠 關於 GearLab</h2>
+    <a class="link-btn" href="https://yu-chiang.me?utm_source=links&utm_medium=social&utm_campaign=linkspage" target="_blank" rel="noopener">
+      部落格首頁
+    </a>
+  </div>
+
+  <div class="links-section">
+    <h2>📝 最新評測</h2>
+    <a class="link-btn" href="https://yu-chiang.me/posts/?utm_source=links&utm_medium=social&utm_campaign=latest-post" target="_blank" rel="noopener">
+      查看所有評測文章 →
+    </a>
+  </div>
+
+  <div class="links-section">
+    <h2>🛒 本週主推商品</h2>
+    <p class="links-note">每週更新！透過連結購買，作者會獲得少量分潤，感謝支持 ☕</p>
+    <a class="link-btn link-btn-shopee" href="https://shopee.tw?af_id=16336070025&utm_source=links&utm_medium=affiliate&utm_campaign=apple-pencil-alt" target="_blank" rel="noopener sponsored">
+      🖊️ Apple Pencil 平替推薦（更新中）
+    </a>
+    <a class="link-btn link-btn-shopee" href="https://shopee.tw?af_id=16336070025&utm_source=links&utm_medium=affiliate&utm_campaign=65w-gan" target="_blank" rel="noopener sponsored">
+      ⚡ CP 值最高 65W GaN 充電器（更新中）
+    </a>
+    <a class="link-btn link-btn-shopee" href="https://shopee.tw?af_id=16336070025&utm_source=links&utm_medium=affiliate&utm_campaign=ipad-paperlike" target="_blank" rel="noopener sponsored">
+      📱 iPad 類紙膜推薦（更新中）
+    </a>
+  </div>
+
+  <div class="links-section">
+    <h2>📱 找到我們</h2>
+    <a class="link-btn link-btn-social" href="https://instagram.com/gearlabTW" target="_blank" rel="noopener">
+      Instagram @gearlabTW
+    </a>
+    <a class="link-btn link-btn-social" href="https://threads.net/@gearlabTW" target="_blank" rel="noopener">
+      Threads @gearlabTW
+    </a>
+    <a class="link-btn link-btn-social" href="https://facebook.com/GearLab" target="_blank" rel="noopener">
+      Facebook GearLab
+    </a>
+  </div>
+
+  <div class="links-section">
+    <h2>📩 合作洽詢</h2>
+    <a class="link-btn link-btn-email" href="mailto:jonathanwang1103@gmail.com">
+      jonathanwang1103@gmail.com
+    </a>
+  </div>
+
+  <div class="links-disclosure">
+    本頁部分連結為蝦皮分潤連結，透過連結購買作者將獲得分潤回饋，不影響商品定價。
+  </div>
+</div>
+
+<style>
+.links-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+.links-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.links-header h1 {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+.links-header p {
+  color: var(--secondary);
+  font-size: 0.95rem;
+}
+.links-section {
+  margin-bottom: 1.8rem;
+}
+.links-section h2 {
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+  color: var(--secondary);
+  border: none;
+}
+.links-note {
+  font-size: 0.8rem;
+  color: var(--secondary);
+  margin-bottom: 0.6rem;
+}
+.link-btn {
+  display: block;
+  width: 100%;
+  padding: 0.9rem 1.2rem;
+  margin-bottom: 0.6rem;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 500;
+  text-decoration: none;
+  border: 1px solid var(--border);
+  background: var(--entry);
+  color: var(--primary);
+  transition: opacity 0.15s;
+}
+.link-btn:hover {
+  opacity: 0.75;
+  text-decoration: none;
+}
+.link-btn-shopee {
+  border-color: #ee4d2d33;
+  background: #ee4d2d0d;
+}
+.link-btn-social {
+  border-color: var(--border);
+}
+.link-btn-email {
+  background: var(--code-bg);
+}
+.links-disclosure {
+  font-size: 0.75rem;
+  color: var(--secondary);
+  text-align: center;
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+</style>
+{{- end }}
