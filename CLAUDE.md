@@ -6,6 +6,16 @@
 - **框架**：Hugo 靜態網站 + PaperMod 主題（git submodule）
 - **部署**：GitHub Actions → GitHub Pages（push main 自動部署）
 
+## Debug 積極度
+
+**每次寫完 content 或改 layout，必須用 preview 工具驗證實際畫面，不可只靠 build 成功就回報完成。**
+
+驗證清單：
+- 截圖確認文章頁面頂部（標題、麵包屑）
+- 截圖確認表格、清單等複雜元素的 mobile（375px）和 desktop（1280px）
+- 檢查 HTML 結構確認 class 名稱正確後再寫 CSS
+- 新增 partial / layout 後用 `curl` 確認已注入 HTML
+
 ## 目錄結構
 
 ```
@@ -21,6 +31,7 @@
 │   │   └── links.html          # /links 頁自訂版型
 │   └── _partials/
 │       └── extend_footer.html  # PaperMod footer 延伸（訂閱表單）
+│       └── extend_head.html    # 自訂 CSS/JS 注入點
 ├── static/
 │   └── CNAME               # yu-chiang.me
 ├── themes/PaperMod/        # git submodule
@@ -54,6 +65,10 @@ cover:
   alt: ""
 ---
 ```
+
+## 麵包屑 section 標題
+
+各 section 須有 `_index.md` 設定 `title`，否則顯示英文資料夾名。
 
 ## Email 訂閱系統（Supabase）
 

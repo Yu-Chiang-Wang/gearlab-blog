@@ -19,13 +19,13 @@ cover:
 
 不想看全文的人，直接看這張表：
 
-| 使用場景 | 推薦款型 | 瓦數 | 大約售價 |
-|---|---|---|---|
-| 輕巧出門，只帶一顆 | Anker Nano 45W | 45W 單孔 | NT$700–900 |
-| MacBook Air 主力充電器 | UGREEN Nexode 65W | 65W 雙孔 | NT$900–1,200 |
-| 一顆充 MacBook + iPad + iPhone | Anker 735 GaN Prime 65W | 65W 三孔 | NT$1,100–1,400 |
-| MacBook Pro 14" 重度用戶 | UGREEN Nexode 100W | 100W 三孔 | NT$1,300–1,800 |
-| 預算有限的入門首選 | Baseus GaN 65W | 65W 雙孔 | NT$600–800 |
+| 使用場景 | 推薦款型 | 孔數 | 瓦數 | 大約售價 |
+|---|---|---|---|---|
+| 輕巧出門，只帶一顆 | Anker Nano 45W | 1C | 45W | NT$700–900 |
+| MacBook Air 主力充電器 | UGREEN Nexode 65W | 2C | 65W | NT$900–1,200 |
+| 一顆充三機 | Anker 735 GaN Prime 65W | 2C1A | 65W | NT$1,100–1,400 |
+| MacBook Pro 14" 重度用戶 | UGREEN Nexode 100W | 2C1A | 100W | NT$1,300–1,800 |
+| 預算入門首選 | Baseus GaN 65W | 2C | 65W | NT$600–800 |
 
 ---
 
