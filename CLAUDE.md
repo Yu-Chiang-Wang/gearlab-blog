@@ -1,0 +1,107 @@
+# GearLab Blog — Claude 專案說明
+
+## 專案概覽
+- **網站**：https://yu-chiang.me
+- **定位**：3C 評測選物部落格，主題為 iPad 配件、GaN 充電器
+- **框架**：Hugo 靜態網站 + PaperMod 主題（git submodule）
+- **部署**：GitHub Actions → GitHub Pages（push main 自動部署）
+
+## 目錄結構
+
+```
+├── content/
+│   ├── posts/          # 評測文章
+│   ├── about.md        # 關於頁
+│   ├── links.md        # Linktree 風格導覽頁
+│   ├── privacy-policy.md
+│   ├── affiliate-disclosure.md
+│   └── selection-criteria.md
+├── layouts/
+│   ├── _default/
+│   │   └── links.html          # /links 頁自訂版型
+│   └── _partials/
+│       └── extend_footer.html  # PaperMod footer 延伸（訂閱表單）
+├── static/
+│   └── CNAME               # yu-chiang.me
+├── themes/PaperMod/        # git submodule
+├── hugo.toml               # 主設定
+└── .github/workflows/hugo.yml  # CI/CD
+```
+
+## hugo.toml 重點設定
+
+- `theme = "PaperMod"`
+- `languageCode = "zh-tw"`
+- `googleAnalytics = "G-23LVXQLZNR"`
+- `[outputs] home = ["HTML", "RSS", "JSON"]`（支援 RSS feed）
+- Supabase 訂閱參數放在 `[params]` 區塊：
+  - `supabaseUrl` — Supabase 專案 URL
+  - `supabaseAnonKey` — Supabase anon/public key
+
+## 文章 front matter 格式
+
+```yaml
+---
+title: ""
+date: 2026-05-10T12:00:00+08:00
+draft: false
+description: ""
+tags: ["GaN充電器", "充電器", "3C"]
+categories: ["充電器"]
+slug: "url-slug"
+cover:
+  image: ""
+  alt: ""
+---
+```
+
+## Email 訂閱系統（Supabase）
+
+架構：純前端 JavaScript 呼叫 Supabase REST API，不需後端。
+
+### Supabase 初次設定（只需做一次）
+
+在 Supabase SQL Editor 執行：
+
+```sql
+CREATE TABLE subscribers (
+  id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
+  email TEXT NOT NULL UNIQUE,
+  created_at TIMESTAMPTZ DEFAULT now()
+);
+
+ALTER TABLE subscribers ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY "allow_public_subscribe" ON subscribers
+  FOR INSERT TO anon WITH CHECK (true);
+```
+
+### 設定金鑰
+
+在 hugo.toml `[params]` 填入：
+
+```toml
+supabaseUrl = "https://faznibhmbrciqwctygzd.supabase.co"
+supabaseAnonKey = "sb_publishable_h5WNBoFK8Y2MfpaghnBJUg_5QbZp-QC"
+```
+
+## PaperMod 客製化規則
+
+- **不要修改 themes/PaperMod/**，改用 `layouts/` 覆蓋
+- Footer 延伸：`layouts/_partials/extend_footer.html`
+- Head 延伸：`layouts/_partials/extend_head.html`
+- 自訂頁面版型：`layouts/_default/<type>.html`
+- 注意：Hugo v0.146+ 將 `partials/` 改為 `_partials/`，PaperMod 已跟進
+
+## 建置指令
+
+```bash
+hugo server          # 本地預覽（http://localhost:1313）
+hugo --minify --cleanDestinationDir  # 正式建置
+```
+
+## 聯絡信箱
+jonathanwang1103@gmail.com
+
+## 附屬連結
+蝦皮分潤：`af_id=16336070025`
