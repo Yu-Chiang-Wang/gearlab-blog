@@ -1,0 +1,130 @@
+{{ if and .Site.Params.supabaseUrl (ne .Site.Params.supabaseUrl "YOUR_SUPABASE_URL") }}
+<section class="subscribe-section">
+  <div class="subscribe-inner">
+    <p class="subscribe-title">📬 訂閱 GearLab 新文章通知</p>
+    <p class="subscribe-desc">有新的評測或選物出爐，第一時間寄到你的信箱。</p>
+    <form id="subscribe-form" onsubmit="gearlab_subscribe(event)">
+      <input
+        id="subscribe-email"
+        type="email"
+        placeholder="your@email.com"
+        required
+        autocomplete="email"
+      />
+      <button type="submit" id="subscribe-btn">訂閱</button>
+    </form>
+    <p id="subscribe-msg" class="subscribe-msg" aria-live="polite"></p>
+  </div>
+</section>
+
+<style>
+.subscribe-section {
+  border-top: 1px solid var(--border);
+  padding: 2rem 1rem;
+  text-align: center;
+}
+.subscribe-inner {
+  max-width: 480px;
+  margin: 0 auto;
+}
+.subscribe-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+.subscribe-desc {
+  font-size: 0.88rem;
+  color: var(--secondary);
+  margin-bottom: 1rem;
+}
+#subscribe-form {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#subscribe-email {
+  flex: 1;
+  min-width: 200px;
+  max-width: 300px;
+  padding: 0.55rem 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--entry);
+  color: var(--primary);
+  font-size: 0.9rem;
+}
+#subscribe-btn {
+  padding: 0.55rem 1.2rem;
+  border-radius: 8px;
+  border: none;
+  background: var(--primary);
+  color: var(--theme);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+#subscribe-btn:hover { opacity: 0.8; }
+#subscribe-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.subscribe-msg {
+  font-size: 0.85rem;
+  margin-top: 0.7rem;
+  min-height: 1.2em;
+}
+.subscribe-msg.ok { color: #22c55e; }
+.subscribe-msg.err { color: #ef4444; }
+</style>
+
+<script>
+(function() {
+  var SUPABASE_URL = "{{ .Site.Params.supabaseUrl }}";
+  var SUPABASE_KEY = "{{ .Site.Params.supabaseAnonKey }}";
+
+  window.gearlab_subscribe = function(e) {
+    e.preventDefault();
+    var email = document.getElementById('subscribe-email').value.trim();
+    var btn = document.getElementById('subscribe-btn');
+    var msg = document.getElementById('subscribe-msg');
+
+    btn.disabled = true;
+    btn.textContent = '送出中…';
+    msg.textContent = '';
+    msg.className = 'subscribe-msg';
+
+    fetch(SUPABASE_URL + '/rest/v1/subscribers', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'apikey': SUPABASE_KEY,
+        'Authorization': 'Bearer ' + SUPABASE_KEY,
+        'Prefer': 'return=minimal'
+      },
+      body: JSON.stringify({ email: email })
+    })
+    .then(function(res) {
+      if (res.ok || res.status === 201) {
+        msg.textContent = '✓ 訂閱成功！感謝支持 ☕';
+        msg.className = 'subscribe-msg ok';
+        document.getElementById('subscribe-email').value = '';
+        return;
+      }
+      if (res.status === 409) {
+        msg.textContent = '這個 email 已經訂閱過了。';
+      } else {
+        msg.textContent = '送出失敗，請稍後再試。';
+      }
+      msg.className = 'subscribe-msg err';
+    })
+    .catch(function(err) {
+      msg.textContent = '網路錯誤：' + err.message;
+      msg.className = 'subscribe-msg err';
+    })
+    .finally(function() {
+      btn.disabled = false;
+      btn.textContent = '訂閱';
+    });
+  };
+})();
+</script>
+{{ end }}

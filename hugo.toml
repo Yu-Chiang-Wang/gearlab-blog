@@ -16,6 +16,9 @@ googleAnalytics = "G-23LVXQLZNR"
   ShowToc = true
   TocOpen = false
 
+  supabaseUrl = "https://faznibhmbrciqwctygzd.supabase.co"
+  supabaseAnonKey = "sb_publishable_h5WNBoFK8Y2MfpaghnBJUg_5QbZp-QC"
+
   [params.homeInfoParams]
     Title = "GearLab 選物研究室 🔬"
     Content = "幫你用數據和實測，找到 iPad 配件、GaN 充電器的最佳解法。"
