@@ -6,6 +6,10 @@
 - **框架**：Hugo 靜態網站 + PaperMod 主題（git submodule）
 - **部署**：GitHub Actions → GitHub Pages（push main 自動部署）
 
+## 新增文章工作流
+
+每次新增文章請依 [WORKFLOW.md](WORKFLOW.md) 執行，涵蓋 SEO 前置研究、本地驗證、push 部署檢查、Google Search Console 提交與發布後追蹤。
+
 ## Debug 積極度
 
 **每次寫完 content 或改 layout，必須用 preview 工具驗證實際畫面，不可只靠 build 成功就回報完成。**
