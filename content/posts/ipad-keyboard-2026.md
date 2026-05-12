@@ -1,6 +1,6 @@
 ---
 title: "iPad 鍵盤推薦 2026：從入門到旗艦，4 款依使用場景對號入座"
-date: 2026-05-13T10:00:00+08:00
+date: 2026-05-12T22:00:00+08:00
 draft: false
 description: "iPad 鍵盤怎麼選？2026 年從 Logitech K380 入門款到 Combo Touch 旗艦款，依有無觸控板、預算、iPad 型號分類，直接對號入座。"
 tags: ["iPad鍵盤", "iPad配件", "Logitech", "巧控鍵盤", "iPad推薦"]
