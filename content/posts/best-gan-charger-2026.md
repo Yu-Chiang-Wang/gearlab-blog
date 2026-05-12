@@ -2,7 +2,7 @@
 title: "2026 GaN 充電器推薦：五款高 CP 值實測比較，依需求對號入座"
 date: 2026-05-11T12:00:00+08:00
 draft: false
-description: "2026 年 GaN 充電器怎麼選？這篇整理五款高 CP 值推薦，從輕旅行 45W 到一顆充三機的 100W，附完整規格對比表，讓你直接對號入座。"
+description: "2026 年 GaN 充電器怎麼選？這篇整理五款高 CP 值推薦，從輕旅行 45W 到一顆充三機的 140W，附完整規格對比表，讓你直接對號入座。"
 tags: ["GaN充電器", "充電器推薦", "3C", "iPad", "MacBook", "Anker", "UGREEN"]
 categories: ["充電器"]
 slug: "best-gan-charger-2026"
@@ -24,7 +24,7 @@ cover:
 | 輕巧出門，只帶一顆 | Anker Nano 45W | 1C | 45W | NT$700–900 |
 | MacBook Air 主力充電器 | UGREEN Nexode 65W | 2C | 65W | NT$900–1,200 |
 | 一顆充三機 | Anker 735 GaN Prime 65W | 2C1A | 65W | NT$1,100–1,400 |
-| MacBook Pro 14" 重度用戶 | UGREEN Nexode 100W | 2C1A | 100W | NT$1,300–1,800 |
+| MacBook Pro 14"/16" 重度用戶 | UGREEN Nexode 140W | 2C1A | 140W | 依蝦皮即時價 |
 | 預算入門首選 | Baseus GaN 65W | 2C | 65W | NT$600–800 |
 
 ---
@@ -84,7 +84,7 @@ Anker Nano 系列的設計目標很清楚：做到最小。45W 單孔款大約�
 
 **不適合：** MacBook Pro 或需要一顆充三台的情況
 
-👉 [Anker Nano 45W 蝦皮選購](https://s.shopee.tw/2g7sSeYyTQ)
+👉 [Anker Nano 45W 蝦皮選購](https://s.shopee.tw/LjyaWQFRI)
 
 ---
 
@@ -105,7 +105,7 @@ UGREEN 的 Nexode 系列在 CP 值這條線上很難被取代。65W 雙孔款的
 
 **不適合：** MacBook Pro 14" 以上（建議 96W+）
 
-👉 [UGREEN Nexode 65W 蝦皮選購](https://s.shopee.tw/2g7sSeYyTQ)
+👉 [UGREEN Nexode 65W 蝦皮選購](https://s.shopee.tw/W3OmpPc6L)
 
 ---
 
@@ -120,33 +120,33 @@ UGREEN 的 Nexode 系列在 CP 值這條線上很難被取代。65W 雙孔款的
 - C1 + C2：45W + 20W
 - C1 + C2 + A：40W + 15W + 10W
 
-比較需要注意的是：三孔全用的情況下，C1 的 40W 充 MacBook Air 還可以，但充 MacBook Pro 14" 就明顯慢了。如果主力設備是 MBP，建議往下看 100W 款。
+比較需要注意的是：三孔全用的情況下，C1 的 40W 充 MacBook Air 還可以，但充 MacBook Pro 14" 就明顯慢了。如果主力設備是 MBP，建議往下看 140W 款。
 
 體積跟一塊肥皂差不多，出門帶一顆，USB-A 那孔可以偶爾充 Switch、相機等。
 
 **適合對象：** Apple 全家桶用戶、MacBook Air + iPad + iPhone 三機同充
 
-👉 [Anker 735 蝦皮選購](https://s.shopee.tw/2g7sSeYyTQ)
+👉 [Anker 735 蝦皮選購](https://s.shopee.tw/178BuRW7G)
 
 ---
 
-### No.4 MacBook Pro 重度用戶：UGREEN Nexode 100W
+### No.4 MacBook Pro 重度用戶：UGREEN Nexode 140W
 
-**適合：MacBook Pro 14" / 重度用戶、不想妥協充電速度**
+**適合：MacBook Pro 14"/16" 重度用戶、不想妥協充電速度**
 
-100W 聽起來很誇張，但如果你有 MacBook Pro 14"，原廠推薦的充電器就是 96W。這款 UGREEN 100W 三孔款可以替代原廠，還多了兩個孔：
+140W 是 USB-C PD 3.1 EPR 規格下的高階輸出。MacBook Pro 16" 原廠充電器規格就是 140W，這款 UGREEN Nexode 140W 三孔款可以替代原廠，還多了兩個孔。
 
-- C1 單孔最大 100W（充 MBP 14" 全速，跑程式不掉電）
-- C1 + C2 雙孔：65W + 35W
-- C1 + C2 + A：65W + 25W + 10W
+- 配置：USB-C × 2 + USB-A × 1（2C1A）
+- C1 單孔最大 **140W**（支援 PD 3.1 EPR，充 MBP 16" 全速）
+- 多孔同時使用時依官方規格動態分配（具體分配請以包裝盒或 UGREEN 官網標示為準）
 
-重量約 180g，比原廠磚頭重，但帶出門一顆搞定所有設備，整體還是賺的。
+帶出門一顆搞定 MacBook Pro + iPad + iPhone 三機，相對於分開帶兩三顆充電器，整體還是賺的。
 
-如果預算允許，MacBook Pro 用戶建議直接上這款，不用再糾結 65W 夠不夠用。
+如果預算允許，MacBook Pro 14"/16" 用戶建議直接上這款，不用再糾結 65W / 100W 是否夠用。
 
-**適合對象：** MacBook Pro 14" 以上用戶、需要三機全速同充
+**適合對象：** MacBook Pro 14"/16" 用戶、需要三機全速同充
 
-👉 [UGREEN Nexode 100W 蝦皮選購](https://s.shopee.tw/2g7sSeYyTQ)
+👉 [UGREEN Nexode 140W 蝦皮選購](https://s.shopee.tw/BQYODQsmJ)
 
 ---
 
@@ -165,7 +165,7 @@ Baseus 在台灣的知名度不如 Anker，但這款 65W 雙孔款是入門 GaN 
 
 **適合對象：** 預算有限、想先體驗 GaN 的用戶；給家裡長輩或備用充電器用
 
-👉 [Baseus GaN 65W 蝦皮選購](https://s.shopee.tw/2g7sSeYyTQ)
+👉 [Baseus GaN 65W 蝦皮選購](https://s.shopee.tw/10zfNkNi5U)
 
 ---
 
@@ -176,7 +176,7 @@ Baseus 在台灣的知名度不如 Anker，但這款 65W 雙孔款是入門 GaN 
 | Anker Nano 45W | 1C | 45W | 45W | ~65g | NT$700–900 |
 | UGREEN Nexode 65W | 2C | 65W | 65W | ~110g | NT$900–1,200 |
 | Anker 735 65W | 2C1A | 65W | 65W | ~130g | NT$1,100–1,400 |
-| UGREEN Nexode 100W | 2C1A | 100W | 100W | ~180g | NT$1,300–1,800 |
+| UGREEN Nexode 140W | 2C1A | 140W | 140W | 依官方規格 | 依蝦皮即時價 |
 | Baseus GaN 65W | 2C | 65W | 65W | ~105g | NT$600–800 |
 
 ---
