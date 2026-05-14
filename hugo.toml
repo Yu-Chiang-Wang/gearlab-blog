@@ -19,6 +19,16 @@ googleAnalytics = "G-23LVXQLZNR"
   supabaseUrl = "https://faznibhmbrciqwctygzd.supabase.co"
   supabaseAnonKey = "sb_publishable_h5WNBoFK8Y2MfpaghnBJUg_5QbZp-QC"
 
+  [params.assets]
+    favicon = "/favicon.svg"
+    favicon16x16 = "/favicon.svg"
+    favicon32x32 = "/favicon.svg"
+    apple_touch_icon = "/apple-touch-icon.svg"
+    safari_pinned_tab = "/safari-pinned-tab.svg"
+
+  [params.label]
+    iconSVG = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="32" height="32" style="border-radius:7px;display:block"><style>.gl-bg{fill:#0B1F33}.gl-br{fill:#F4F1EA}.gl-g{fill:#FF6B1F}[data-theme=dark] .gl-bg{fill:#F4F1EA}[data-theme=dark] .gl-br{fill:#0B1F33}</style><rect width="256" height="256" class="gl-bg"/><g class="gl-br"><path d="M 68 68 h 30 v 16 h -14 v 88 h 14 v 16 h -30 z"/><path d="M 188 68 h -30 v 16 h 14 v 88 h -14 v 16 h 30 z"/></g><g class="gl-g"><path d="M 160.84 119.20 A 34 34 0 1 0 160.84 136.80 L 147.32 133.18 A 20 20 0 1 1 147.32 122.82 Z"/><rect x="128" y="128" width="33.50" height="10"/></g></svg>'''
+
   [params.homeInfoParams]
     Title = "GearLab 選物研究室 🔬"
     Content = "幫你用數據和實測，找到 iPad 配件、GaN 充電器的最佳解法。"
