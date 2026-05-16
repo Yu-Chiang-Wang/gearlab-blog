@@ -6,12 +6,17 @@ description: "iPad 買了之後要配哪些配件？這篇整理保護殼、鍵�
 tags: ["iPad", "iPad配件", "iPad保護殼", "Apple Pencil", "iPad鍵盤", "3C推薦"]
 categories: ["iPad配件"]
 slug: "best-ipad-accessories-2026"
+author: "王侑強 / GearLab"
 cover:
   image: ""
   alt: "iPad 必備配件推薦 2026"
 ---
 
 > 本文含蝦皮分潤連結，如您透過連結完成購買，作者將獲得分潤回饋，實際售價與一般購買相同。所有內容基於實際使用與公開技術資料。
+
+---
+
+> **實測說明：** 本文為 iPad 配件的綜合入門指南。**螢幕保護貼（ESR 類紙膜）** 與 **Logitech K380 鍵盤** 為作者實際使用款型；保護殼與觸控筆各款型基於蝦皮商品頁、品牌規格與公開評測整理，未全數實機驗證，建議搭配各品類專題文章深入了解。
 
 ---
 

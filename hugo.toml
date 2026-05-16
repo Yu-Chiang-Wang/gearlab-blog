@@ -15,6 +15,7 @@ googleAnalytics = "G-23LVXQLZNR"
   ShowCodeCopyButtons = true
   ShowToc = true
   TocOpen = false
+  ShowAuthor = true
 
   supabaseUrl = "https://faznibhmbrciqwctygzd.supabase.co"
   supabaseAnonKey = "sb_publishable_h5WNBoFK8Y2MfpaghnBJUg_5QbZp-QC"
@@ -39,6 +40,11 @@ googleAnalytics = "G-23LVXQLZNR"
     name = "關於"
     url = "/about/"
     weight = 10
+  [[menu.main]]
+    identifier = "author"
+    name = "作者"
+    url = "/author/"
+    weight = 15
   [[menu.main]]
     identifier = "posts"
     name = "評測"

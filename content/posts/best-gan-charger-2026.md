@@ -6,12 +6,17 @@ description: "2026 年 GaN 充電器怎麼選？這篇整理五款高 CP 值推�
 tags: ["GaN充電器", "充電器推薦", "3C", "iPad", "MacBook", "Anker", "UGREEN"]
 categories: ["充電器"]
 slug: "best-gan-charger-2026"
+author: "王侑強 / GearLab"
 cover:
   image: ""
   alt: "2026 GaN 充電器推薦比較"
 ---
 
 > 本文含蝦皮分潤連結，如您透過連結完成購買，作者將獲得分潤回饋，實際售價與一般購買相同。所有內容基於實際使用與公開技術資料。
+
+---
+
+> **實測說明：** 本文中 **No.1（Anker Nano 45W）** 與 **No.2（UGREEN Nexode 65W）** 為作者實際購買使用，有第一手使用心得。**No.3、No.4、No.5** 款型基於品牌官方規格、蝦皮商品頁與公開測評整理，未親自實機驗證，選品理由以規格與口碑為主。
 
 ---
 

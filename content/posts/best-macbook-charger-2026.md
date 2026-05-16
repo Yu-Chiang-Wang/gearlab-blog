@@ -6,12 +6,17 @@ description: "MacBook 充電器怎麼選？M4 MacBook Air 用戶實際通勤心�
 tags: ["MacBook充電器", "MacBook Air", "MacBook Pro", "GaN充電器", "Anker", "UGREEN", "充電器推薦"]
 categories: ["充電器"]
 slug: "best-macbook-charger-2026"
+author: "王侑強 / GearLab"
 cover:
   image: ""
   alt: "MacBook 充電器推薦 2026"
 ---
 
 > 本文含蝦皮分潤連結，如您透過連結完成購買，作者將獲得分潤回饋，實際售價與一般購買相同。本文觀點來自筆者實際使用 M4 MacBook Air 13" 的通勤經驗與公開技術資料，所有產品規格請以官方頁面為準。
+
+---
+
+> **實測說明：** 作者日常使用 **M4 MacBook Air 13"**，手邊有**原廠 30W USB-C 充電頭**與**一顆 GaN 2C+1A 多孔款**，以下針對 MBA 機型的觀點來自第一手通勤使用。**MBP 14"/16" 相關推薦**基於官方規格與公開測評整理，未親自實機驗證。
 
 ---
 

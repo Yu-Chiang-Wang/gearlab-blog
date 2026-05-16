@@ -6,12 +6,17 @@ description: "iPad 鍵盤怎麼選？2026 年從 Logitech K380 入門款到 Comb
 tags: ["iPad鍵盤", "iPad配件", "Logitech", "巧控鍵盤", "iPad推薦"]
 categories: ["iPad 配件"]
 slug: "ipad-keyboard-2026"
+author: "王侑強 / GearLab"
 cover:
   image: ""
   alt: "iPad 鍵盤推薦 2026"
 ---
 
 > 本文含蝦皮分潤連結，如您透過連結完成購買，作者將獲得分潤回饋，實際售價與一般購買相同。本文觀點基於公開技術資料與實際使用 iPad 的場景整理。
+
+---
+
+> **實測說明：** **Logitech K380** 為作者實際使用款型，文中相關描述含第一手操作心得。**Logitech Combo Touch** 與 **Apple Magic Keyboard** 基於品牌規格、蝦皮商品頁與公開測評整理，未親自實機驗證。
 
 ---
 
