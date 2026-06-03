@@ -20,16 +20,18 @@
 <style>
 .subscribe-section {
   border-top: 1px solid var(--border);
-  padding: 2rem 1rem;
+  padding: 2.4rem 1rem;
   text-align: center;
+  background: var(--accent-soft);
 }
 .subscribe-inner {
   max-width: 480px;
   margin: 0 auto;
 }
 .subscribe-title {
-  font-size: 1.05rem;
-  font-weight: 600;
+  font-size: 1.12rem;
+  font-weight: 700;
+  font-family: var(--font-display, inherit);
   margin-bottom: 0.3rem;
 }
 .subscribe-desc {
@@ -47,25 +49,32 @@
   flex: 1;
   min-width: 200px;
   max-width: 300px;
-  padding: 0.55rem 0.9rem;
+  padding: 0.6rem 0.95rem;
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: 10px;
   background: var(--entry);
   color: var(--primary);
   font-size: 0.9rem;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+#subscribe-email:focus {
+  outline: none;
+  border-color: var(--accent, #FF6B1F);
+  box-shadow: 0 0 0 3px var(--accent-ring, rgba(255,107,31,0.3));
 }
 #subscribe-btn {
-  padding: 0.55rem 1.2rem;
-  border-radius: 8px;
+  padding: 0.6rem 1.4rem;
+  border-radius: 10px;
   border: none;
-  background: var(--primary);
-  color: var(--theme);
+  background: var(--accent, #FF6B1F);
+  color: #fff;
   font-size: 0.9rem;
-  font-weight: 600;
+  font-weight: 700;
   cursor: pointer;
-  transition: opacity 0.15s;
+  transition: background 0.15s, transform 0.1s;
 }
-#subscribe-btn:hover { opacity: 0.8; }
+#subscribe-btn:hover { background: var(--accent-hover, #E85A12); }
+#subscribe-btn:active { transform: translateY(1px); }
 #subscribe-btn:disabled { opacity: 0.5; cursor: not-allowed; }
 .subscribe-msg {
   font-size: 0.85rem;
