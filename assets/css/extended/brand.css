@@ -1,0 +1,393 @@
+/* ============================================================
+   GearLab 品牌色雜誌風樣式系統
+   品牌色：深藍 #0B1F33 ｜ 米白 #F4F1EA ｜ 橘 #FF6B1F
+   覆寫 PaperMod 預設變數，套用於全站。
+   ============================================================ */
+
+:root {
+  /* 品牌原色 */
+  --brand-navy: #0B1F33;
+  --brand-cream: #F4F1EA;
+  --brand-orange: #FF6B1F;
+
+  /* 強調色衍生 */
+  --accent: #FF6B1F;
+  --accent-hover: #E85A12;
+  --accent-soft: rgba(255, 107, 31, 0.10);
+  --accent-ring: rgba(255, 107, 31, 0.30);
+
+  /* 字體 */
+  --font-sans: "Sora", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
+  --font-display: "Sora", -apple-system, BlinkMacSystemFont, "PingFang TC",
+    "Noto Sans TC", "Microsoft JhengHei", "Segoe UI", sans-serif;
+
+  /* 半徑與陰影 */
+  --radius: 12px;
+  --shadow-sm: 0 1px 2px rgba(11, 31, 51, 0.04), 0 2px 8px rgba(11, 31, 51, 0.05);
+  --shadow-md: 0 6px 18px rgba(11, 31, 51, 0.08), 0 2px 6px rgba(11, 31, 51, 0.05);
+}
+
+/* ---- 淺色（預設）：暖米白雜誌底 ---- */
+:root {
+  --theme: #FFFDF9;          /* 內文頁底 / 卡片底基準 */
+  --entry: #FFFFFF;          /* 卡片底（純白浮在米白上）*/
+  --primary: #1B2A3A;        /* 主文字：深藍灰 */
+  --secondary: #6B7585;      /* 次要文字 */
+  --tertiary: #DED8CC;       /* 邊框強調 / 分隔 */
+  --content: #2C3A48;        /* 內文正文 */
+  --code-bg: #F1ECE2;        /* 行內 code / TOC 底 */
+  --border: #E9E2D6;         /* 邊框（暖色）*/
+  --border: #EAE3D6;
+}
+
+/* ---- 深色：品牌深藍底 ---- */
+:root[data-theme="dark"] {
+  --theme: #0B1F33;
+  --entry: #122E49;
+  --primary: #F4F1EA;
+  --secondary: #9FB0C2;
+  --tertiary: #1F3B58;
+  --content: #D8DEE6;
+  --code-bg: #0A1A2C;
+  --border: #1E3A57;
+}
+
+/* 列表頁（首頁 / 評測列表）大背景 */
+.list {
+  background:
+    radial-gradient(1200px 500px at 80% -10%, var(--accent-soft), transparent 60%),
+    var(--brand-cream);
+}
+[data-theme="dark"] .list {
+  background:
+    radial-gradient(1200px 500px at 80% -10%, rgba(255, 107, 31, 0.08), transparent 60%),
+    var(--theme);
+}
+
+/* ============================================================
+   基礎排版
+   ============================================================ */
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.01em;
+}
+
+.post-content,
+.md-content {
+  line-height: 1.85;     /* 中文閱讀更舒服 */
+}
+
+.post-content p {
+  letter-spacing: 0.015em;
+}
+
+::selection {
+  background: var(--accent);
+  color: #fff;
+}
+
+h1, h2, h3, h4,
+.post-title,
+.entry-header h1,
+.entry-header h2,
+.home-info .entry-header {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+/* ============================================================
+   頁首 / Logo / 導覽
+   ============================================================ */
+.logo a {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+#menu a {
+  position: relative;
+  transition: color 0.18s ease;
+}
+#menu a:hover {
+  color: var(--accent);
+}
+/* 目前所在分頁底線 */
+#menu .active,
+#menu li.active a {
+  border-bottom: 2px solid var(--accent);
+}
+.nav .logo-switches .theme-toggle:hover {
+  color: var(--accent);
+}
+
+/* ============================================================
+   首頁 Hero（home-info）
+   ============================================================ */
+.home-info .entry-header h1,
+.home-info .entry-header h2 {
+  font-size: 2.6rem;
+  line-height: 1.25;
+  background: linear-gradient(120deg, var(--primary) 60%, var(--accent));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.home-info .entry-content {
+  font-size: 1.12rem;
+  color: var(--secondary);
+  max-width: 38rem;
+}
+.home-info {
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+.home-info::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  margin-top: 1.4rem;
+  border-radius: 4px;
+  background: var(--accent);
+}
+
+/* ============================================================
+   文章卡片
+   ============================================================ */
+.post-entry {
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border);
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+}
+.post-entry:hover,
+.post-entry:focus-within {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--accent-ring);
+}
+.entry-header h2 {
+  transition: color 0.18s ease;
+}
+.post-entry:hover .entry-header h2 {
+  color: var(--accent);
+}
+.entry-cover img {
+  border-radius: calc(var(--radius) - 2px);
+}
+
+/* 首篇大圖卡的標題用品牌橘提味 */
+.first-entry .entry-header h1 {
+  letter-spacing: -0.015em;
+}
+
+/* ============================================================
+   文章頁：標題、麵包屑、meta、TOC
+   ============================================================ */
+.post-title {
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+}
+.breadcrumbs a {
+  color: var(--secondary);
+  transition: color 0.18s ease;
+}
+.breadcrumbs a:hover {
+  color: var(--accent);
+}
+.post-meta a:hover {
+  color: var(--accent);
+}
+
+details.toc {
+  border: 1px solid var(--border);
+  border-inline-start: 3px solid var(--accent);
+  background: var(--code-bg);
+}
+.toc a {
+  transition: color 0.15s ease;
+}
+.toc a:hover {
+  color: var(--accent);
+  text-decoration-color: var(--accent);
+}
+.toc .details {
+  font-family: var(--font-display);
+  color: var(--primary);
+}
+
+/* ============================================================
+   內文元素：連結、標題、引用、表格、圖片、分隔線
+   ============================================================ */
+.post-content a:not(.anchor),
+.md-content a:not(.anchor) {
+  color: var(--accent);
+  text-decoration-color: var(--accent-ring);
+  text-decoration-thickness: 2px;
+  transition: color 0.15s ease, text-decoration-color 0.15s ease;
+}
+.post-content a:not(.anchor):hover,
+.md-content a:not(.anchor):hover {
+  color: var(--accent-hover);
+  text-decoration-color: var(--accent);
+}
+
+/* 內文 h2 加品牌橘短線，雜誌分段感 */
+.post-content h2,
+.md-content h2 {
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--border);
+}
+.post-content h2::before,
+.md-content h2::before {
+  content: "";
+  display: inline-block;
+  width: 0.55rem;
+  height: 1.05em;
+  margin-inline-end: 0.6rem;
+  vertical-align: -0.12em;
+  border-radius: 3px;
+  background: var(--accent);
+}
+.post-content h3,
+.md-content h3 {
+  color: var(--primary);
+}
+
+/* 引用區塊：橘色左邊框 + 暖底 */
+.post-content blockquote,
+.md-content blockquote {
+  border-inline-start: 0.3rem solid var(--accent);
+  background: var(--accent-soft);
+  padding: 0.8rem 1rem;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  color: var(--content);
+}
+
+/* 表格：雜誌感標題列 + 斑馬條紋 + 圓角 */
+.post-content table,
+.md-content table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+.post-content table th,
+.md-content table th {
+  background: var(--brand-navy);
+  color: var(--brand-cream);
+  font-family: var(--font-display);
+  font-weight: 600;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+[data-theme="dark"] .post-content table th,
+[data-theme="dark"] .md-content table th {
+  background: #0A1A2C;
+}
+.post-content table td,
+.md-content table td {
+  border-color: var(--border);
+}
+.post-content tbody tr:nth-child(even),
+.md-content tbody tr:nth-child(even) {
+  background: var(--code-bg);
+}
+.post-content tbody tr:hover,
+.md-content tbody tr:hover {
+  background: var(--accent-soft);
+}
+
+/* 手機才讓表格可橫向捲動（桌機維持完整呈現）*/
+@media (max-width: 768px) {
+  .post-content table,
+  .md-content table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* 圖片：柔和陰影 */
+.post-content img,
+.md-content img {
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+}
+.post-content figure figcaption,
+.md-content figure figcaption {
+  color: var(--secondary);
+  font-weight: 500;
+}
+
+/* 分隔線：品牌橘漸層 */
+.post-content hr,
+.md-content hr {
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent), transparent);
+  border-radius: 3px;
+}
+
+/* 行內 code 帶一點暖橘 */
+.post-content code {
+  color: var(--accent-hover);
+  background: var(--accent-soft);
+}
+[data-theme="dark"] .post-content code {
+  color: #FFB689;
+}
+
+/* ============================================================
+   標籤 / 分頁 / 分享等元件
+   ============================================================ */
+.post-tags a,
+.terms-tags a {
+  border: 1px solid var(--border);
+  transition: border-color 0.18s ease, color 0.18s ease, background 0.18s ease;
+}
+.post-tags a:hover,
+.terms-tags a:hover {
+  color: var(--accent);
+  border-color: var(--accent-ring);
+  background: var(--accent-soft);
+}
+
+.pagination .next,
+.pagination .prev {
+  border: 1px solid var(--border);
+  transition: border-color 0.18s ease, color 0.18s ease;
+}
+.pagination a:hover {
+  color: var(--accent) !important;
+  border-color: var(--accent-ring);
+}
+
+/* 上一篇 / 下一篇導覽 */
+.paginav .next:hover .title,
+.paginav .prev:hover .title {
+  color: var(--accent);
+}
+
+/* 回到頂端按鈕 */
+.top-link {
+  background: var(--accent) !important;
+  color: #fff !important;
+}
+
+/* ============================================================
+   響應式微調
+   ============================================================ */
+@media (max-width: 640px) {
+  .home-info .entry-header h1,
+  .home-info .entry-header h2 {
+    font-size: 2rem;
+  }
+  .post-title {
+    font-size: 30px;
+  }
+}
