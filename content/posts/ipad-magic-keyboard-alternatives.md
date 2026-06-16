@@ -1,8 +1,8 @@
 ---
-title: "iPad 巧控鍵盤值得買嗎？4 條路徑攤提分析，幫你做決定"
+title: "iPad 巧控鍵盤值得買嗎？4 條替代路徑攤提分析，幫你做決定"
 date: 2026-06-03T20:00:00+08:00
 draft: false
-description: "Apple Magic Keyboard 動輒 NT$8,900 起跳，到底值不值得？這篇從攤提成本、機型綁定、4 條替代路徑三個角度拆解，給你「該買」與「不該買」的具體判準，不只是列規格。"
+description: "iPad 巧控鍵盤值得買嗎？Apple Magic Keyboard 動輒 NT$8,900 起跳到底值不值得？這篇從攤提成本、機型綁定、4 條替代路徑三個角度拆解，給你「該買」與「不該買」的具體判準。"
 tags: ["iPad 巧控鍵盤", "Magic Keyboard", "iPad 鍵盤", "iPad 配件", "Apple"]
 categories: ["iPad 配件"]
 slug: "ipad-magic-keyboard-alternatives"
@@ -10,6 +10,13 @@ author: "王侑強 / GearLab"
 cover:
   image: ""
   alt: "iPad 巧控鍵盤值得買嗎"
+faq:
+  - q: "iPad 巧控鍵盤值得買嗎？"
+    a: "看三件事：(1) 你 iPad 要用幾年？用越久越攤得平 NT$8,900 售價；(2) 你的主要場景是不是「平板＋筆電二合一」？只是看影片打字其實 K380 + Smart Folio 就夠；(3) 你會不會在 2 年內換機？Magic Keyboard 鎖機型，換 iPad 大機率要連鍵盤一起換。簡單判準：每天打字超過 1 小時、會持續用 2 年以上、預算夠 → 值得；其他情況 → 替代款 CP 值更高。"
+  - q: "Apple Magic Keyboard 太貴有什麼替代？"
+    a: "4 條替代路徑：(1) Logitech Combo Touch（NT$3,500-4,500，含觸控板、Smart Connector 接、可分離鍵盤）；(2) Logitech K380（NT$1,000-1,400，藍牙、無觸控板、可跨 3 台裝置切換）；(3) Logitech Slim Folio（NT$2,500-3,000，輕薄但無觸控板）；(4) 不買鍵盤殼、直接用藍牙鍵盤 + 獨立保護殼，最大彈性。"
+  - q: "巧控鍵盤跟 Combo Touch 差在哪？"
+    a: "Magic Keyboard 優勢：懸浮設計、做工最好、打字手感最接近 MacBook、附 USB-C 充電口可同時替 iPad 充電。Combo Touch 優勢：價格只要一半（NT$3,500-4,500 vs NT$8,900+）、鍵盤可分離（純平板模式更輕）、支援多種角度。預算優先選 Combo Touch；要 iPad Pro 當主力生產力選 Magic Keyboard。"
 ---
 
 > 本文含蝦皮分潤連結，如您透過連結完成購買，作者將獲得分潤回饋，實際售價與一般購買相同。

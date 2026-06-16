@@ -123,6 +123,8 @@ Magic Keyboard 是 Apple 官方的 iPad Pro / iPad Air 專屬磁吸鍵盤，也�
 **什麼情況值得買：** 你是重度生產力 iPad 用戶、已經投資 iPad Pro 頂規、追求最完整的原廠體驗。否則 Logitech Combo Touch 的觸控板體驗就足夠好。
 
 > Magic Keyboard 沒有蝦皮分潤版本，建議直接 Apple Store 或官方授權通路選購，比較有保障。
+>
+> 💡 **iPad 巧控鍵盤值得買嗎？** 完整攤提分析 + 4 條替代路徑判準 → [iPad 巧控鍵盤值得買嗎？4 條替代路徑攤提分析](/posts/ipad-magic-keyboard-alternatives/)
 
 ---
 

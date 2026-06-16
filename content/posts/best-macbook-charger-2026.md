@@ -1,8 +1,8 @@
 ---
-title: "MacBook 充電器推薦 2026：M 系列 5 款 GaN 替代原廠首選，依機型對號入座"
+title: "MacBook Air / Pro 充電器推薦 2026：5 款 GaN 替代原廠，依機型對號入座"
 date: 2026-05-12T21:15:00+08:00
 draft: false
-description: "MacBook 充電器怎麼選？M4 MacBook Air 用戶實際通勤心得：原廠頭 vs 5 款 GaN 替代款比較（含綠聯 65W CD275 實機照與第一手實測），從 MBA 30W 到 MBP 16\" 140W 全機型對號入座。"
+description: "MacBook Air 用 65W、MacBook Pro 14\" 用 96-100W、MBP 16\" 用 140W——M 系列全機型 GaN 替代原廠 5 款實測比較（含綠聯 65W CD275 實機照與 M4 MBA 通勤第一手心得），不用再猜要買哪款。"
 tags: ["MacBook充電器", "MacBook Air", "MacBook Pro", "GaN充電器", "Anker", "UGREEN", "綠聯", "CD275", "充電器推薦"]
 categories: ["充電器"]
 slug: "best-macbook-charger-2026"
