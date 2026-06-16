@@ -61,6 +61,8 @@ cover:
 - iPad Pro：至少 30W，建議 45W+
 - iPhone 15 系列：20W 就夠快充
 
+> 想看完整對照表（含 iPad mini、MBP 16"、多機同充建議）→ [GaN 充電器幾瓦才夠？一張表教你選對瓦數](/posts/gan-charger-wattage-guide/)
+
 ### 2. 多孔款注意「單孔最大輸出」
 
 很多 65W 三孔款，**三孔全插時每孔最大只剩 30W**，充不快 MacBook。
