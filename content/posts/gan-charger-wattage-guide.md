@@ -127,21 +127,26 @@ MBP 16" 的官方最高充電功率是 **140W**，Apple 原廠也是附 140W Mag
 
 **場景 1：只有 iPhone + iPad，不帶電腦出門**
 → 一顆 **20–45W 單孔 GaN** 就夠，體積最小，通勤包完全不佔位。
+→ 蝦皮參考款：[Anker Nano 45W 單孔 PD](https://s.shopee.tw/LjyaWQFRI)（分潤連結）
 
 **場景 2：MacBook Air + 1 台其他設備（手機 or iPad 二選一）**
 → **65W 雙孔 GaN** 是最划算的組合,MBA 拿到 45W、另一台拿到 20W,雙邊都不會降速。市價約 NT$500–800。
 
-**場景 2.5:MacBook Air + 2 台以上其他設備**
+**場景 2.5：MacBook Air + 2 台以上其他設備**
 → 可選 **65W 三孔** 換攜帶便利,但要接受 MBA 變慢充(20W 上下);或考慮 **100W 三孔** 確保 MBA 端有 45W 可拿。
+→ 蝦皮參考款：[UGREEN Nexode 65W 3-in-1](https://s.shopee.tw/W3OmpPc6L) ｜ [Anker 735 GaNPrime 65W 三孔](https://s.shopee.tw/178BuRW7G)（皆分潤連結）
 
 **場景 3：MacBook Pro 14" 用戶**
 → 至少 **100W**，推薦 UGREEN Nexode 100W 或同級品，確保重載工作不降頻。
+→ 蝦皮參考款：[UGREEN Nexode 140W 三孔](https://s.shopee.tw/BQYODQsmJ)（分潤連結，140W 對 MBP 14" 更有餘裕）
 
 **場景 4：MacBook Pro 16" 重度用戶**
 → 直接上 **140W**，不要省這幾百元，用了之後就再也不會回頭。
+→ 蝦皮參考款：[UGREEN Nexode 140W 三孔](https://s.shopee.tw/BQYODQsmJ)（分潤連結）
 
 **場景 5：出差帶全家設備（2–3 台蘋果設備）**
 → 一顆 **65–100W 四孔 GaN**，把三顆充電器縮成一顆，包包少帶 300g。
+→ 想看 5 款完整實測比較？[2026 GaN 充電器推薦：依需求對號入座](/posts/best-gan-charger-2026/)
 
 ---
 
