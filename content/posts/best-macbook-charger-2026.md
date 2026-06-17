@@ -12,6 +12,31 @@ cover:
   alt: "綠聯 UGREEN 65W GaN 充電器 CD275 三孔 PD 版實機照,放在 MacBook Air 旁"
   caption: "作者實際使用的 GaN 多孔款:綠聯 65W CD275 (2C1A PD 版),搭配 M4 MacBook Air 13\""
   relative: false
+itemlist:
+  - name: "Anker Nano 45W"
+    position: 1
+    brand: "Anker"
+    description: "MacBook Air 通勤首選，單孔輕巧"
+    url: "https://s.shopee.tw/LjyaWQFRI"
+  - name: "綠聯 UGREEN 65W CD275（2C1A PD 版）"
+    position: 2
+    brand: "UGREEN"
+    description: "MacBook Air 家用主力，作者實機實測款"
+  - name: "Anker 735 GaN Prime 65W"
+    position: 3
+    brand: "Anker"
+    description: "三機同行，出差過夜備援"
+    url: "https://s.shopee.tw/178BuRW7G"
+  - name: "UGREEN Nexode 140W"
+    position: 4
+    brand: "UGREEN"
+    description: "MacBook Pro 14\"/16\" 全速首選"
+    url: "https://s.shopee.tw/BQYODQsmJ"
+  - name: "Baseus GaN 65W 雙孔"
+    position: 5
+    brand: "Baseus"
+    description: "預算首選，入門不踩雷"
+    url: "https://s.shopee.tw/10zfNkNi5U"
 ---
 
 > 本文含蝦皮分潤連結，如您透過連結完成購買，作者將獲得分潤回饋，實際售價與一般購買相同。本文觀點來自筆者實際使用 M4 MacBook Air 13" 的通勤經驗與公開技術資料，所有產品規格請以官方頁面為準。

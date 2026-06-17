@@ -10,6 +10,40 @@ author: "王侑強 / GearLab"
 cover:
   image: ""
   alt: "iPad Air 11 吋保護殼推薦 2026"
+itemlist:
+  - name: "ESR 巧拼系列保護套"
+    position: 1
+    brand: "ESR"
+    description: "預算首選，透明背蓋＋四角氣囊，NT$400–600"
+    url: "https://s.shopee.tw/4qCPRK1SAE"
+  - name: "TORRAS 圖拉斯支點保護殼"
+    position: 2
+    brand: "TORRAS"
+    description: "CP 值首選，內建多角度磁吸支架二合一"
+    url: "https://s.shopee.tw/4fszF125VD"
+  - name: "ESR 眾置可升降雙用款"
+    position: 3
+    brand: "ESR"
+    description: "多角度進階，升降支架、銷量破千"
+    url: "https://s.shopee.tw/7AaOIrpId3"
+  - name: "Spigen Ultra Hybrid Pro"
+    position: 4
+    brand: "Spigen"
+    description: "軍規防摔＋透明背蓋，保護力取向"
+    url: "https://s.shopee.tw/6fe7hwrCdy"
+  - name: "Apple Smart Folio"
+    position: 5
+    brand: "Apple"
+    description: "原廠折疊翻蓋，Smart Connector 喚醒最順（無分潤，建議官網）"
+faq:
+  - q: "iPad Air M3 11\" 和 M2 11\" 保護殼可以通用嗎？"
+    a: "可以。兩代機身尺寸完全相同（247.6 × 178.5 × 6.1 mm，依 Apple 官網規格），保護殼相容。iPad Air M3 13\" 與 M2 13\" 也通用，但 11\" 與 13\" 不互通。"
+  - q: "透明保護殼真的會泛黃嗎？"
+    a: "PC / TPU 材質長期接觸紫外線或皮膚油脂會有輕微泛黃，這是材質特性，不是品牌問題。解法是選彩色或翻蓋款，或每 1–2 年更換一次。"
+  - q: "保護殼會影響 Apple Pencil 磁吸充電嗎？"
+    a: "只要保護殼預留 Apple Pencil 充電槽缺口就不會影響，本文 5 款都有預留。若買到全包覆型沒缺口的殼則充電會失敗，下單前看商品頁圖示即可。"
+  - q: "iPad Pro 11\" 用戶可以用這 5 款嗎？"
+    a: "可以。5 款都有 iPad Pro 11\" 對應版本（在蝦皮商品頁下拉選單選機型）。但 iPad Pro 12.9\" / 13\" 屬大螢幕款，結構稍不同，建議直接搜尋對應尺寸。"
 ---
 
 > 本文含蝦皮分潤連結，如您透過連結完成購買，作者將獲得分潤回饋，實際售價與一般購買相同。本文選品依**蝦皮商品頁與品牌官方規格**（2026-05-15 整理）綜合公開評測整理，不含作者個人實機長期使用心得；售價區間為近期觀察值，建議點連結確認最新報價。

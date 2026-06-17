@@ -10,6 +10,34 @@ author: "王侑強 / GearLab"
 cover:
   image: ""
   alt: "iPad 鍵盤推薦 2026"
+itemlist:
+  - name: "Logitech K380 藍牙鍵盤"
+    position: 1
+    brand: "Logitech"
+    description: "入門首選，三設備快速切換、輕巧通勤"
+    url: "https://s.shopee.tw/4Awie63zWA"
+  - name: "Logitech Combo Touch 鍵盤保護套"
+    position: 2
+    brand: "Logitech"
+    description: "旗艦一體式，鍵盤＋觸控板＋保護套三合一"
+    url: "https://s.shopee.tw/40dIRn4cr9"
+  - name: "Apple Magic Keyboard"
+    position: 3
+    brand: "Apple"
+    description: "原廠最完整體驗，無蝦皮分潤版本（建議官方通路）"
+  - name: "Logitech Folio Touch"
+    position: 4
+    brand: "Logitech"
+    description: "觸控板入門版，對應 iPad 第 10 代與舊版 Air"
+faq:
+  - q: "iPad 鍵盤一定要配對應型號嗎？"
+    a: "磁吸款（Magic Keyboard、Combo Touch）必須對應型號，因為磁吸點位置每代不同。藍牙款（K380）則通用，但要確認 iPad 有開啟藍牙配對。"
+  - q: "Logitech K380 的按鍵手感如何？"
+    a: "K380 的圓形鍵帽是特點也是偏好問題。多數人適應後認為回饋感不錯，少數人習慣方型鍵帽。建議先到 Apple Store 或 3C 賣場試打展示品。"
+  - q: "iPad 可以同時接鍵盤和 Apple Pencil 嗎？"
+    a: "可以。藍牙鍵盤和 Apple Pencil 不衝突，可以同時連接使用。Combo Touch 還附 Apple Pencil 磁吸收納槽（機型版本不同，購買前核對）。"
+  - q: "買鍵盤保護套還需要再買保護殼嗎？"
+    a: "不需要。有鍵盤保護套就已經包含背面防護，額外套殼反而裝不進去，兩者選一即可。"
 ---
 
 > 本文含蝦皮分潤連結，如您透過連結完成購買，作者將獲得分潤回饋，實際售價與一般購買相同。本文觀點基於公開技術資料與實際使用 iPad 的場景整理。

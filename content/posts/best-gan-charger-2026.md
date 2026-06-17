@@ -10,6 +10,32 @@ author: "王侑強 / GearLab"
 cover:
   image: ""
   alt: "2026 GaN 充電器推薦比較"
+itemlist:
+  - name: "Anker Nano 45W"
+    position: 1
+    brand: "Anker"
+    description: "輕旅行首選，單孔 45W、約 65g"
+    url: "https://s.shopee.tw/LjyaWQFRI"
+  - name: "UGREEN Nexode 65W 雙孔"
+    position: 2
+    brand: "UGREEN"
+    description: "MacBook Air 主力，單孔不降速"
+    url: "https://s.shopee.tw/W3OmpPc6L"
+  - name: "Anker 735 GaN Prime 65W"
+    position: 3
+    brand: "Anker"
+    description: "一顆充三機（2C1A）"
+    url: "https://s.shopee.tw/178BuRW7G"
+  - name: "UGREEN Nexode 140W"
+    position: 4
+    brand: "UGREEN"
+    description: "MacBook Pro 14\"/16\" 重度用戶全速款"
+    url: "https://s.shopee.tw/BQYODQsmJ"
+  - name: "Baseus GaN 65W 雙孔"
+    position: 5
+    brand: "Baseus"
+    description: "預算入門首選，常見 NT$600–800"
+    url: "https://s.shopee.tw/10zfNkNi5U"
 ---
 
 > 本文含蝦皮分潤連結，如您透過連結完成購買，作者將獲得分潤回饋，實際售價與一般購買相同。所有內容基於實際使用與公開技術資料。
