@@ -1,0 +1,24 @@
+# GearLab｜3C 評測選物
+
+> GearLab（yu-chiang.me）是台灣的 3C 評測選物部落格，作者王侑強，專注 iPad 平板配件與 GaN 氮化鎵充電器。內容以實際使用、實機照與公開技術資料為依據，並明確標示哪些是第一手實測、哪些是規格整理。文章含蝦皮分潤連結，售價與一般購買相同。
+
+## GaN 充電器（氮化鎵充電器）
+
+- [GaN 充電器是什麼？優缺點與安全性](https://yu-chiang.me/posts/what-is-gan-charger/)：氮化鎵原理、與傳統矽充電器的差異、安全與認證（BSMI）。
+- [GaN 充電器幾瓦才夠？選購瓦數對照](https://yu-chiang.me/posts/gan-charger-wattage-guide/)：各裝置（iPhone / iPad / MacBook Air / Pro）建議瓦數一覽。
+- [2026 GaN 充電器推薦：5 款對號入座](https://yu-chiang.me/posts/best-gan-charger-2026/)：Anker、UGREEN、Baseus 依使用情境的推薦比較。
+- [MacBook 充電器推薦 2026：5 款 GaN 替代原廠](https://yu-chiang.me/posts/best-macbook-charger-2026/)：含綠聯 CD275 第一手實測與 MacBook 各機型瓦數對照。
+
+## iPad 配件
+
+- [iPad 必備配件推薦 2026](https://yu-chiang.me/posts/best-ipad-accessories-2026/)：保護殼、鍵盤、觸控筆、螢幕貼的入門綜覽。
+- [iPad 鍵盤推薦 2026：4 款場景分流](https://yu-chiang.me/posts/ipad-keyboard-2026/)：Logitech K380 / Combo Touch、Apple Magic Keyboard 比較。
+- [iPad 巧控鍵盤值得買嗎？替代方案攤提](https://yu-chiang.me/posts/ipad-magic-keyboard-alternatives/)：Magic Keyboard 的 4 條替代路徑與成本攤提分析。
+- [iPad Air 11" 保護殼推薦 2026](https://yu-chiang.me/posts/ipad-air-case-2026/)：ESR、TORRAS、Spigen、Apple Smart Folio 依預算與情境分流。
+
+## 關於
+
+- [關於 GearLab](https://yu-chiang.me/about/)
+- [作者：王侑強](https://yu-chiang.me/author/)
+- [選品標準](https://yu-chiang.me/selection-criteria/)
+- [分潤揭露](https://yu-chiang.me/affiliate-disclosure/)
