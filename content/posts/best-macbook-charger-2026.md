@@ -163,7 +163,7 @@ itemlist:
 
 {{< figure src="/images/posts/best-macbook-charger-2026/ugreen-cd275-hero-keyboard.jpg" alt="綠聯 CD275 65W 充電器立放在 MacBook 鍵盤前的情境照" caption="放在桌上和 MacBook 一起的視覺尺寸——比原廠 30W 略大,但塞在筆電包仍游刃有餘" >}}
 
-> 註:綠聯 CD275 / 2C1A PD 版的官方分潤連結待補,確認後會在此補上選購連結。
+> 註:綠聯 CD275(2C1A PD 版)目前在蝦皮沒有分潤合作連結,所以本文不附這顆的購買連結——這是作者自用的實測款,放在這裡是為了分享第一手心得。想入手可在蝦皮搜尋「綠聯 CD275 65W」比較賣場,或直接參考上方其他有連結的同級 65W 多孔款(如 Anker 735)。
 
 ---
 
