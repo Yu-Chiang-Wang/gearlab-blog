@@ -102,6 +102,11 @@
   {{- with $it.description }}{{ $product = merge $product (dict "description" .) }}{{ end -}}
   {{- with $it.url }}{{ $product = merge $product (dict "url" .) }}{{ end -}}
   {{- with $it.brand }}{{ $product = merge $product (dict "brand" (dict "@type" "Brand" "name" .)) }}{{ end -}}
+  {{- /* Google 要求 Product 必須有 offers / review / aggregateRating 之一，否則 rich result 失敗。
+       加最小化 Offer：priceCurrency + availability；有聯盟連結時一併帶入 url。 */ -}}
+  {{- $offer := dict "@type" "Offer" "priceCurrency" "TWD" "availability" "https://schema.org/InStock" -}}
+  {{- with $it.url }}{{ $offer = merge $offer (dict "url" .) }}{{ end -}}
+  {{- $product = merge $product (dict "offers" $offer) -}}
   {{- $items = $items | append (dict "@type" "ListItem" "position" (default (add $i 1) $it.position) "item" $product) -}}
 {{- end -}}
 {{- $list := dict "@context" "https://schema.org" "@type" "ItemList" "itemListElement" $items -}}
