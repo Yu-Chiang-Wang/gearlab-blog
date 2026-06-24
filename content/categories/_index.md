@@ -1,0 +1,4 @@
+---
+cascade:
+  robotsNoIndex: true
+---
