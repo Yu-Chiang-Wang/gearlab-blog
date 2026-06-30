@@ -6,6 +6,7 @@ description: "2026 年 GaN 充電器怎麼選？這篇整理五款高 CP 值推�
 tags: ["GaN充電器", "充電器推薦", "3C", "iPad", "MacBook", "Anker", "UGREEN"]
 categories: ["充電器"]
 slug: "best-gan-charger-2026"
+aliases: ["/posts/gan-charger-wattage-guide/"]
 author: "王侑強 / GearLab"
 cover:
   image: ""
@@ -87,7 +88,7 @@ itemlist:
 - iPad Pro：至少 30W，建議 45W+
 - iPhone 15 系列：20W 就夠快充
 
-> 想看完整對照表（含 iPad mini、MBP 16"、多機同充建議）→ [GaN 充電器幾瓦才夠？一張表教你選對瓦數](/posts/gan-charger-wattage-guide/)
+> 想看各機型充電頭瓦數對應？→ [MacBook 充電器推薦：5 款 GaN 替代原廠比較](/posts/best-macbook-charger-2026/)（含機型對照表）
 
 ### 2. 多孔款注意「單孔最大輸出」
 
