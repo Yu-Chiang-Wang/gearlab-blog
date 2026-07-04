@@ -1,9 +1,9 @@
 ---
-title: "iPad 必備配件 2026：保護殼、鍵盤、觸控筆、螢幕貼怎麼挑不踩雷"
+title: "2026 iPad 配件推薦懶人包｜保護殼、鍵盤、觸控筆、螢幕貼怎麼選"
 date: 2026-05-12T12:00:00+08:00
-lastmod: 2026-06-25T09:30:00+08:00
+lastmod: 2026-07-04T12:00:00+08:00
 draft: false
-description: "iPad 配件怎麼買才不踩雷？保護殼、螢幕保護貼、觸控筆、鍵盤四大類，從入門到旗艦照預算對號入座，新手照表抄、老手直接跳重點，並連結各品類深入專題。"
+description: "iPad 保護殼、螢幕保護貼、觸控筆、鍵盤怎麼選？2026 懶人包按預算整理四大類配件，從 NT$300 入門到旗艦款照需求對號入座，直接避開踩雷款。"
 tags: ["iPad", "iPad配件", "iPad保護殼", "Apple Pencil", "iPad鍵盤", "3C推薦"]
 categories: ["iPad配件"]
 slug: "best-ipad-accessories-2026"
