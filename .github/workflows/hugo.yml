@@ -3,6 +3,10 @@ name: Deploy Hugo to GitHub Pages
 on:
   push:
     branches: [main]
+  schedule:
+    # 每天 09:00 (Asia/Taipei = 01:00 UTC) 重建站台。
+    # Hugo 不建置未來日期的文章，排程重建讓「date 已到期」的文章自動上線（定時發佈機制）
+    - cron: '0 1 * * *'
   workflow_dispatch:
 
 permissions:
