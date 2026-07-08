@@ -1,6 +1,6 @@
 ---
 title: "Marshall 藍牙喇叭怎麼選？從 Emberton 到 Woburn 全系列一次搞懂"
-date: 2026-07-08T18:00:00+08:00
+date: 2026-07-08T10:00:00+08:00
 draft: false
 description: "Marshall 藍牙喇叭型號多到眼花？這篇把全系列拆成「攜帶型」與「家用型」兩條線：Willen、Emberton、Middleton、Kilburn、Acton、Stanmore、Woburn 差在哪、各適合誰，用官方規格表一次比清楚，看完就知道你該買哪一台。"
 tags: ["藍牙喇叭", "Marshall", "音響", "無線喇叭", "3C推薦"]
