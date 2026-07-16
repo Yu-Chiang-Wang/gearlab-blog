@@ -36,7 +36,8 @@
   "name" "GearLab"
   "url" (printf "%s/" $siteURL)
   "logo" (printf "%s/apple-touch-icon.svg" $siteURL)
-  "founder" (dict "@type" "Person" "name" "王侑強" "url" (printf "%s/author/" $siteURL))
+  "founder" (dict "@type" "Person" "name" "王侑強" "url" (printf "%s/author/" $siteURL) "address" (dict "@type" "PostalAddress" "addressCountry" "TW"))
+  "areaServed" "TW"
   "sameAs" slice -}}
 {{- $website := dict
   "@type" "WebSite"
