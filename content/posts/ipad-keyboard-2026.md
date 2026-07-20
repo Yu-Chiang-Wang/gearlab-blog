@@ -1,8 +1,9 @@
 ---
 title: "iPad 鍵盤推薦 2026：從入門到旗艦，4 款依使用場景對號入座"
 date: 2026-05-12T22:00:00+08:00
+lastmod: 2026-07-20T17:00:00+08:00
 draft: false
-description: "iPad 鍵盤怎麼選？2026 年從 Logitech K380 入門款到 Combo Touch 旗艦款，依有無觸控板、預算、iPad 型號分類，直接對號入座。"
+description: "iPad 鍵盤怎麼選？2026 年從 Logitech K380 入門款到 Combo Touch 旗艦款，依觸控板需求、預算與機型（iPad Air 4/5、Air M2、iPad Pro、第 10 代）分節推薦，直接對號入座。"
 tags: ["iPad鍵盤", "iPad配件", "Logitech", "巧控鍵盤", "iPad推薦"]
 categories: ["iPad 配件"]
 slug: "ipad-keyboard-2026"
@@ -30,6 +31,8 @@ itemlist:
     brand: "Logitech"
     description: "觸控板入門版，對應 iPad 第 10 代與舊版 Air"
 faq:
+  - q: "iPad Air 4 / Air 5 可以用哪些鍵盤？"
+    a: "Air 4（2020）與 Air 5（2022，M1）屬 M2 之前機型：一體式觸控板方案以 Logitech Folio Touch 為主，Combo Touch 亦有對應 Air 4/5 的舊版（與 Air M2 之後的版本不通用）；純打字需求選 K380，藍牙通用沒有世代問題。磁吸與結構式鍵盤都分機型版本，下單前務必對 Logitech 官方型號對照表。"
   - q: "iPad 鍵盤一定要配對應型號嗎？"
     a: "磁吸款（Magic Keyboard、Combo Touch）必須對應型號，因為磁吸點位置每代不同。藍牙款（K380）則通用，但要確認 iPad 有開啟藍牙配對。"
   - q: "Logitech K380 的按鍵手感如何？"
@@ -196,6 +199,28 @@ Folio Touch 是 Combo Touch 的前一代，支援 iPad 第 10 代和 iPad Air（
 
 ---
 
+## 依 iPad 機型選鍵盤：Air 4/5、Air M2、Pro、第 10 代對號入座
+
+上面的決策樹能篩掉大半選項，這裡直接按機型給結論。提醒：磁吸與一體式鍵盤都分機型版本，**下單前務必對 Logitech 官方型號對照表**。
+
+### iPad Air 4 / Air 5 鍵盤推薦
+
+Air 4（2020）與 Air 5（2022，M1）屬 M2 之前機型：一體式觸控板方案以 **Logitech Folio Touch** 為主，Combo Touch 亦有對應 Air 4/5 的舊版（與新版 Air M2+ 的版本不通用，下單前對型號）。不需要觸控板就直上 **K380**，藍牙通用完全沒有世代問題。
+
+### iPad Air（M2 / M3）鍵盤推薦
+
+新版 Air 的一體式首選 **Logitech Combo Touch**（選對應 M2 之後機型的版本）；預算不設限可上 **Apple Magic Keyboard**（Air 版 NT$8,900 起）。值不值得上原廠，攤提分析見[這篇](/posts/ipad-magic-keyboard-alternatives/)。
+
+### iPad Pro 鍵盤推薦
+
+**Combo Touch**（生產力甜蜜點）或 **Magic Keyboard**（原廠體驗最完整，Pro 版 NT$11,900 起）二選一。注意 Pro 12.9" 與 Pro 13"（M4）的版本不通用。
+
+### iPad（第 10 代）鍵盤推薦
+
+一體式以 **Folio Touch** 為主要選項；或用 **K380 + 支架保護殼**的組合，總價不到 Combo Touch 的一半，輕度打字反而更輕鬆。
+
+---
+
 ## iPad 鍵盤常踩的三個雷
 
 ### 雷 1：買到型號不相容的款型
@@ -213,6 +238,10 @@ iPad 鍵盤保護套的支架角度固定款只能調一個角度，可調角度
 ---
 
 ## 常見問題 FAQ
+
+### iPad Air 4 / Air 5 可以用哪些鍵盤？
+
+Air 4 與 Air 5 屬 M2 之前機型：一體式觸控板方案以 **Logitech Folio Touch** 為主，Combo Touch 亦有對應 Air 4/5 的舊版（與 Air M2 之後的版本不通用）；純打字需求選 **K380**，藍牙通用沒有世代問題。詳見上面「依 iPad 機型選鍵盤」一節。
 
 ### iPad 鍵盤一定要配對應型號嗎？
 
