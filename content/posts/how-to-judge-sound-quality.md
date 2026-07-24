@@ -124,6 +124,10 @@ cover:
 
 規格表幫你刪掉不適合的，耳朵幫你選出喜歡的——兩個都用上，就很難買錯。
 
+**下一步：把這套方法套到實際機種上。** 如果你已經在看藍牙喇叭，我把 Marshall 全系列的頻率響應、SPL、單體配置整理成一張對照表，直接照本文的 4 個數字比較——
+
+👉 [Marshall 藍牙喇叭全系列怎麼選（含規格對照表）](/posts/marshall-bluetooth-speaker-guide/)
+
 ---
 
-*延伸閱讀：[Marshall 藍牙喇叭全系列怎麼選](/posts/marshall-bluetooth-speaker-guide/)・[GaN 充電器是什麼](/posts/what-is-gan-charger/)*
+*延伸閱讀：[GaN 充電器是什麼](/posts/what-is-gan-charger/)・[USB-C 充電線怎麼選](/posts/usb-c-charging-cable/)*

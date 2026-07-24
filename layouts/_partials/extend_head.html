@@ -15,26 +15,36 @@
 {{ partial "schema.html" . }}
 
 {{- /* GA4 affiliate outbound-click tracking. Fires `affiliate_click` on any
-       Shopee link so the monetization funnel (session → affiliate click) is
-       measurable in GA4. Uses event delegation so DOM readiness is irrelevant. */ -}}
+       affiliate link so the monetization funnel (session → affiliate click) is
+       measurable in GA4. Uses event delegation so DOM readiness is irrelevant.
+       網域對照見 08_tracking/affiliate-link-library.csv：蝦皮 L001–L035、
+       聯盟網 Affiliates.One L036–L040（每個品牌各自的追蹤網域）。 */ -}}
 <script>
 (function () {
-  var AFFILIATE_HOSTS = ['s.shopee.tw', 'shopee.tw'];
+  var AFFILIATE_HOSTS = {
+    's.shopee.tw': 'shopee',
+    'shopee.tw': 'shopee',
+    'linkgo.one': 'affiliates_one',
+    'affclk.site': 'affiliates_one',
+    'tlcafftrax.com': 'affiliates_one',
+    'affclkr.com': 'affiliates_one'
+  };
   document.addEventListener('click', function (e) {
     var a = e.target.closest && e.target.closest('a[href]');
     if (!a) return;
     var host;
     try { host = new URL(a.href).hostname; } catch (err) { return; }
-    var isAffiliate = AFFILIATE_HOSTS.some(function (h) {
-      return host === h || host.endsWith('.' + h);
+    var network = null;
+    Object.keys(AFFILIATE_HOSTS).forEach(function (h) {
+      if (host === h || host.endsWith('.' + h)) network = AFFILIATE_HOSTS[h];
     });
-    if (!isAffiliate) return;
+    if (!network) return;
     if (typeof gtag !== 'function') return;
     gtag('event', 'affiliate_click', {
       link_url: a.href,
       link_text: (a.textContent || '').trim().slice(0, 100),
       page_path: location.pathname,
-      affiliate_network: 'shopee'
+      affiliate_network: network
     });
   }, true);
 })();
