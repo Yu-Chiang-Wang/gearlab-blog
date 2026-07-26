@@ -3,9 +3,14 @@
 
   Emits:
     - WebSite + Organization (every page)
-    - Article + BreadcrumbList (single posts)
+    - Article (single posts)
+    - BreadcrumbList (single posts, /posts/, and standalone pages)
     - FAQPage (if `faq` array in front matter)
     - ItemList + Product (if `itemlist` array in front matter, for best-X roundups)
+
+  This is the site's ONLY source of structured data — PaperMod's own
+  `templates/schema_json.html` is overridden to emit nothing (see that file for
+  why). Anything new goes here.
 
   IMPORTANT: each block is built as a dict/slice and emitted with
   `jsonify | safeJS`. Do NOT inline `{{ x | jsonify }}` inside a <script>
@@ -50,7 +55,7 @@
 {{- $graph := dict "@context" "https://schema.org" "@graph" (slice $website $org) -}}
 <script type="application/ld+json">{{ $graph | jsonify | safeJS }}</script>
 
-{{- /* Article + BreadcrumbList (single posts only) */ -}}
+{{- /* Article (single posts only) */ -}}
 {{- if and .IsPage (eq .Section "posts") -}}
 {{- $author := .Params.author | default "王侑強 / GearLab" -}}
 {{- $cover := "" -}}
@@ -75,13 +80,30 @@
   "inLanguage" "zh-TW" -}}
 {{- with $cover }}{{ $article = merge $article (dict "image" .) }}{{ end -}}
 <script type="application/ld+json">{{ $article | jsonify | safeJS }}</script>
-{{- $crumb := dict
-  "@context" "https://schema.org"
-  "@type" "BreadcrumbList"
-  "itemListElement" (slice
-    (dict "@type" "ListItem" "position" 1 "name" "首頁" "item" (printf "%s/" $siteURL))
-    (dict "@type" "ListItem" "position" 2 "name" "評測" "item" (printf "%s/posts/" $siteURL))
-    (dict "@type" "ListItem" "position" 3 "name" .Title "item" .Permalink)) -}}
+{{- end -}}
+
+{{- /* BreadcrumbList. One trail per page kind, always rooted at 首頁 — the
+       theme version this replaced derived crumbs from URL segments, which gave
+       posts a rootless 2-level trail and left /posts/ and the standalone pages
+       with a single self-referential item. Home and taxonomy/term lists get no
+       crumb on purpose. */ -}}
+{{- $home := dict "name" "首頁" "url" (printf "%s/" $siteURL) -}}
+{{- $posts := dict "name" "評測" "url" (printf "%s/posts/" $siteURL) -}}
+{{- $trail := slice -}}
+{{- if and (eq .Kind "page") (eq .Section "posts") -}}
+  {{- $trail = slice $home $posts (dict "name" .Title "url" .Permalink) -}}
+{{- else if and (eq .Kind "section") (eq .Section "posts") -}}
+  {{- $trail = slice $home $posts -}}
+{{- else if and (eq .Kind "page") (eq .Section "") -}}
+  {{- /* standalone pages: /about/, /links/, /privacy-policy/, ... */ -}}
+  {{- $trail = slice $home (dict "name" .Title "url" .Permalink) -}}
+{{- end -}}
+{{- with $trail -}}
+{{- $items := slice -}}
+{{- range $i, $c := . -}}
+  {{- $items = $items | append (dict "@type" "ListItem" "position" (add $i 1) "name" $c.name "item" $c.url) -}}
+{{- end -}}
+{{- $crumb := dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $items -}}
 <script type="application/ld+json">{{ $crumb | jsonify | safeJS }}</script>
 {{- end -}}
 

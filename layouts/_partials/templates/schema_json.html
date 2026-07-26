@@ -1,0 +1,28 @@
+{{- /*
+  Intentionally empty — overrides PaperMod's themes/PaperMod/layouts/_partials/
+  templates/schema_json.html so it emits nothing.
+
+  Why: the theme partial (called from its head.html) duplicated every structured
+  data type we already emit from `_partials/schema.html`, and did it worse:
+
+    - BreadcrumbList  → theme built it from URL segments, producing a 2-level
+                        crumb on posts (評測文章 > 標題, no 首頁 root) and a
+                        useless 1-item self-referential crumb on /posts/ and on
+                        standalone pages. schema.html emits a proper 3-level
+                        crumb rooted at 首頁.
+    - BlogPosting     → duplicated the Article we emit for the same page, and
+                        inlined the entire `articleBody` into every post's HTML
+                        (several KB of dead weight per page). It also typed
+                        static pages like /about/ and /privacy-policy/ as
+                        BlogPosting, which they are not.
+    - Organization    → on the homepage only, a strict subset of the
+                        WebSite + Organization @graph in schema.html (no @id,
+                        no founder, no areaServed "TW"). `sameAs` came from
+                        site.Params.SocialIcons, which this site does not set,
+                        so nothing is lost by dropping it.
+
+  Structured data now has exactly one source: `layouts/_partials/schema.html`,
+  injected via `extend_head.html`. Add new types there, not here.
+
+  Do not delete this file — removing it silently re-enables the theme partial.
+*/ -}}
