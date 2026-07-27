@@ -82,13 +82,22 @@
 <script type="application/ld+json">{{ $article | jsonify | safeJS }}</script>
 {{- end -}}
 
-{{- /* BreadcrumbList. One trail per page kind, always rooted at 首頁 — the
-       theme version this replaced derived crumbs from URL segments, which gave
-       posts a rootless 2-level trail and left /posts/ and the standalone pages
-       with a single self-referential item. Home and taxonomy/term lists get no
-       crumb on purpose. */ -}}
-{{- $home := dict "name" "首頁" "url" (printf "%s/" $siteURL) -}}
-{{- $posts := dict "name" "評測" "url" (printf "%s/posts/" $siteURL) -}}
+{{- /* BreadcrumbList. One trail per page kind, always rooted at the homepage —
+       the theme version this replaced derived crumbs from URL segments, which
+       gave posts a rootless 2-level trail and left /posts/ and the standalone
+       pages with a single self-referential item. Home and taxonomy/term lists
+       get no crumb on purpose.
+
+       Labels are pulled from the same sources PaperMod's *visible* breadcrumb
+       uses (`_partials/breadcrumbs.html`): `i18n "home"` for the root and the
+       section page's own .Title for /posts/. Google expects the structured
+       trail to match the one on screen, so don't hardcode these — renaming
+       content/posts/_index.md should move both together. */ -}}
+{{- $home := dict "name" (i18n "home" | default "首頁") "url" (printf "%s/" $siteURL) -}}
+{{- $posts := dict "name" "評測文章" "url" (printf "%s/posts/" $siteURL) -}}
+{{- with site.GetPage "/posts" -}}
+  {{- $posts = dict "name" .Title "url" .Permalink -}}
+{{- end -}}
 {{- $trail := slice -}}
 {{- if and (eq .Kind "page") (eq .Section "posts") -}}
   {{- $trail = slice $home $posts (dict "name" .Title "url" .Permalink) -}}
