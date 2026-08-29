@@ -340,6 +340,7 @@ iPad 玻璃貼是一個**規格看起來很複雜、實際選擇很單純**的�
 ---
 
 **延伸閱讀：**
+- 還在高清、抗藍光、霧面之間取捨：[iPad 保護貼要貼哪一種？四種類型的取捨表與決策樹](/posts/ipad-screen-protector-guide/)
 - 用 Apple Pencil 寫字想要紙感：[iPad 類紙膜推薦：6 款依寫字或畫圖對號入座](/posts/ipad-paper-like-screen-protector/)
 - iPad 配件全套怎麼配：[iPad 必備配件推薦 2026](/posts/best-ipad-accessories-2026/)
 - 保護殼一起搞定：[iPad Air 11" 保護殼推薦 2026](/posts/ipad-air-case-2026/)
