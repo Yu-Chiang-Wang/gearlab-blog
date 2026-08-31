@@ -16,11 +16,11 @@ itemlist:
     brand: "RENAISSER"
     description: "台灣製造、BSMI 認證，提筆即用，筆記派首選"
     url: "https://s.shopee.tw/7VF3WdSIwn"
-  - name: "eiP 觸控筆 Pencil"
+  - name: "eiP Pencil 2 觸控筆"
     position: 2
     brand: "eiP"
     description: "台灣品牌，全磁吸收納，支援 2024 後新機型"
-    url: "https://s.shopee.tw/2BDXApmblE"
+    url: "https://s.shopee.tw/5q7nUMXUE8"
   - name: "NovaPlus Pencil A5／A6／A8"
     position: 3
     brand: "NovaPlus"
@@ -122,7 +122,7 @@ Apple **沒有把壓力感應的介面開放給第三方廠商**，所以市面�
 | # | 品名 | 售價 | 適合誰 | 連結 |
 |---|---|---|---|---|
 | 1 | 🇹🇼 RENAISSER 瑞納瑟 A2 | NT$664 | 筆記派，要保固 | [蝦皮](https://s.shopee.tw/7VF3WdSIwn) |
-| 2 | 🇹🇼 eiP 觸控筆 Pencil | NT$1,189 | 2024 後新機型 | [蝦皮](https://s.shopee.tw/2BDXApmblE) |
+| 2 | 🇹🇼 eiP 觸控筆 Pencil 2 | NT$1,190 | 2024 後新機型 | [蝦皮](https://s.shopee.tw/5q7nUMXUE8) |
 | 3 | 🇹🇼 NovaPlus A5／A6／A8 | NT$980 | 要進階功能 | [蝦皮](https://s.shopee.tw/2LWxN8lyQJ) |
 | 4 | ArtizonPen Utrla 2 代 | NT$269 | 預算派 | [蝦皮](https://s.shopee.tw/1qagmDnsR8) |
 | 5 | PixelPaws 全能筆 | NT$279 | 預算派 | [蝦皮](https://s.shopee.tw/4qEILjcSLU) |
@@ -151,7 +151,7 @@ Apple **沒有把壓力感應的介面開放給第三方廠商**，所以市面�
 
 👉 [RENAISSER 瑞納瑟 A2（蝦皮）](https://s.shopee.tw/7VF3WdSIwn)
 
-### No.2 新機型首選：eiP 觸控筆 Pencil
+### No.2 新機型首選：eiP Pencil 2 觸控筆
 
 **推薦理由：** 台灣品牌，產品線明確涵蓋 2024 年後的新機型，正好補上陷阱 3 的缺口。
 
@@ -165,9 +165,9 @@ Apple **沒有把壓力感應的介面開放給第三方廠商**，所以市面�
 
 **適合誰**：2024 年後買的 iPad、希望筆能直接吸在機身側邊隨手取用的人。
 
-**注意**：蝦皮這個賣場為 eiP 觸控筆系列，**實際型號與規格以商品頁標示為準**——eiP 有 Pencil 2、Pencil X 等多個型號，支援機型不完全相同。
+**注意**：此連結指向的是**明確標示 Pencil 2 的賣場**（商品頁列出 iPad 10／11、Air 4–7、M3／M4／M5）。eiP 另有 Pencil X 等型號，支援機型與價格不同，**下單前仍請以商品頁標示為準**。
 
-👉 [eiP 觸控筆 Pencil（蝦皮直營）](https://s.shopee.tw/2BDXApmblE)
+👉 [eiP Pencil 2 觸控筆 蝦皮選購](https://s.shopee.tw/5q7nUMXUE8)
 
 ### No.3 功能進階：NovaPlus Pencil A5／A6／A8
 
