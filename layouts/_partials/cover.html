@@ -1,0 +1,44 @@
+{{- /*
+  覆寫 PaperMod 的 cover.html。
+
+  原版只在圖片位於 page bundle 或 assets/ 時才做 srcset 處理；我們的圖片
+  以前放在 static/，所以每篇文章的封面都是原尺寸 JPG（1200×1600、231–370 KB）
+  直出，而且沒有 width/height。圖片搬到 assets/ 後改由這支解析。
+
+  和原版的差異：
+    1. 用 resources.Get 直接依路徑解析（原版的 GetMatch glob 對 /images/… 這種
+       根目錄起始的路徑抓不到）。
+    2. 輸出 WebP + srcset + width/height（交給 responsive-image.html）。
+    3. 單篇文章的封面就是 LCP 元素 → eager + fetchpriority="high"。
+*/ -}}
+{{- with .cxt }}
+{{- if (and .Params.cover.image (not $.isHidden)) }}
+<figure class="entry-cover">
+    {{- $alt := (.Params.cover.alt | default .Params.cover.caption | plainify) }}
+    {{- $addLink := (and site.Params.cover.linkFullImages $.IsSingle) }}
+    {{- $src := .Params.cover.image }}
+
+    {{- if $addLink }}
+      {{- $full := $src }}
+      {{- with resources.Get (strings.TrimPrefix "/" $src) }}{{ $full = .RelPermalink }}{{ end }}
+      <a href="{{ $full }}" target="_blank" rel="noopener noreferrer">
+    {{- end }}
+
+    {{- partial "responsive-image.html" (dict
+          "src" $src
+          "alt" $alt
+          "loading" (cond $.IsSingle "eager" "lazy")
+          "priority" $.IsSingle
+          "sizes" (cond $.IsSingle "(min-width: 768px) 720px, calc(100vw - 28px)" "(min-width: 768px) 720px, calc(100vw - 58px)")
+    ) }}
+
+    {{- if $addLink }}</a>{{ end }}
+
+    {{- if $.IsSingle }}
+        {{ with .Params.cover.caption -}}
+            <figcaption>{{ . | markdownify }}</figcaption>
+        {{- end }}
+    {{- end }}
+</figure>
+{{- end }}
+{{- end -}}

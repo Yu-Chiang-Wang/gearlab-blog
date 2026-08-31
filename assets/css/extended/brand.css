@@ -391,3 +391,14 @@ details.toc {
     font-size: 30px;
   }
 }
+
+/* ---- 圖片：補 height:auto（2026-08-31 PageSpeed 調校）----
+   responsive-image.html 會在 <img> 上輸出 width/height（給瀏覽器預留版位，
+   CLS 才會是 0）。但 PaperMod 的 reset 只寫了 `img{display:block;max-width:100%}`
+   沒有 height:auto——寬度被 max-width 收窄後，高度仍卡在 height 屬性，圖片
+   會被拉長變形。這條把比例還回去。 */
+.post-content img,
+.md-content img,
+.entry-cover img {
+  height: auto;
+}

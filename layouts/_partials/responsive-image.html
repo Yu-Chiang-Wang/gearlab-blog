@@ -1,0 +1,71 @@
+{{- /*
+  responsive-image.html — 全站唯一的 <img> 產生器。
+
+  為什麼存在：原本圖片放在 static/ 直接原尺寸輸出（1200×1600、100–460 KB），
+  Hugo 完全沒機會處理，於是 PageSpeed 同時吃到「圖片傳送效能」與「圖片元素
+  沒有明確的 width/height」兩項扣分。圖片改放 assets/ 後，這支 partial 統一
+  產生 WebP + srcset + width/height。
+
+  呼叫者：
+    - layouts/_markup/render-image.html（Markdown 的 ![]()）
+    - layouts/_shortcodes/figure.html（{{< figure >}}）
+    - layouts/_partials/cover.html（文章封面）
+
+  參數（dict）：
+    src       必填，圖片路徑。/images/... 會去 assets/ 找；外部網址原樣輸出。
+    alt       替代文字
+    title     title 屬性（選填）
+    class     class 屬性（選填）
+    loading   "lazy"（預設）或 "eager"
+    priority  true 時加 fetchpriority="high"（只用在 LCP 圖，即文章封面）
+    sizes     sizes 屬性，預設吃 720px 內文欄寬
+*/ -}}
+{{- $src := .src -}}
+{{- $alt := .alt | default "" -}}
+{{- $title := .title | default "" -}}
+{{- $class := .class | default "" -}}
+{{- $loading := .loading | default "lazy" -}}
+{{- $priority := .priority | default false -}}
+{{- /* 內文欄 720px；手機上實測渲染寬度是 100vw 扣掉外框 padding，
+       照 100vw 宣告會害瀏覽器多挑一級太大的圖。 */ -}}
+{{- $sizes := .sizes | default "(min-width: 768px) 720px, calc(100vw - 28px)" -}}
+
+{{- $res := "" -}}
+{{- if and $src (not (urls.Parse $src).Scheme) -}}
+  {{- $res = resources.Get (strings.TrimPrefix "/" $src) -}}
+{{- end -}}
+
+{{- $processable := slice "jpeg" "png" "tiff" "bmp" "gif" "webp" -}}
+{{- if and $res (in $processable $res.MediaType.SubType) -}}
+  {{- /* 內文欄寬 720px，行動 DPR 2–3 → 級距開到 1280；原圖若落在級距之間
+         再補一張原寬，桌機 retina 才不會挑到偏軟的圖。 */ -}}
+  {{- $targets := slice 360 480 640 720 960 1280 -}}
+  {{- $variants := slice -}}
+  {{- $maxDone := 0 -}}
+  {{- range $targets -}}
+    {{- if ge $res.Width . -}}
+      {{- $variants = $variants | append ($res.Resize (printf "%dx webp q80" .)) -}}
+      {{- $maxDone = . -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if gt $res.Width $maxDone -}}
+    {{- $variants = $variants | append ($res.Resize (printf "%dx webp q80" $res.Width)) -}}
+  {{- end -}}
+  {{- $srcset := slice -}}
+  {{- range $variants -}}
+    {{- $srcset = $srcset | append (printf "%s %dw" .RelPermalink .Width) -}}
+  {{- end -}}
+  {{- /* src 取 720 級距（或最接近的一張）當非 srcset 瀏覽器的退路 */ -}}
+  {{- $base := index $variants (sub (len $variants) 1) -}}
+  {{- range $variants -}}
+    {{- if le .Width 720 -}}{{- $base = . -}}{{- end -}}
+  {{- end -}}
+  <img src="{{ $base.RelPermalink }}"
+    {{ with $srcset }}srcset="{{ delimit . ", " }}" sizes="{{ $sizes }}"{{ end }}
+    width="{{ $base.Width }}" height="{{ $base.Height }}"
+    alt="{{ $alt }}"{{ with $title }} title="{{ . }}"{{ end }}{{ with $class }} class="{{ . }}"{{ end }}
+    loading="{{ $loading }}" decoding="{{ cond $priority "sync" "async" }}"{{ if $priority }} fetchpriority="high"{{ end }}>
+{{- else -}}
+  {{- /* 外部網址或找不到的檔案：原樣輸出，至少保住 lazy/async */ -}}
+  <img src="{{ $src }}" alt="{{ $alt }}"{{ with $title }} title="{{ . }}"{{ end }}{{ with $class }} class="{{ . }}"{{ end }} loading="{{ $loading }}" decoding="async"{{ if $priority }} fetchpriority="high"{{ end }}>
+{{- end -}}

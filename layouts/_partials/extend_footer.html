@@ -67,7 +67,9 @@
   border-radius: 10px;
   border: none;
   background: var(--accent, #FF6B1F);
-  color: #fff;
+  /* 白字配橘底對比只有 2.84:1，Lighthouse 無障礙扣分（14.4px 粗體不算大字，
+     門檻是 4.5:1）。改成品牌深藍字，對比 5.86:1 過關，橘色 CTA 也保住。 */
+  color: var(--brand-navy, #0B1F33);
   font-size: 0.9rem;
   font-weight: 700;
   cursor: pointer;

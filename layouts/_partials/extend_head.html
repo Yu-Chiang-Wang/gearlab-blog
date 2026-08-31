@@ -1,10 +1,16 @@
 {{- /* 台灣 TA 鎖定（_taiwan-targeting-plan.md Phase 1）：PaperMod 已輸出
        hreflang="zh-tw" 自我宣告，這裡只補成對的 x-default。 */ -}}
 <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap"></noscript>
+{{- /* 字體自架（2026-08-31 PageSpeed 調校）：原本從 fonts.googleapis.com 載
+       Sora，等於 CSS 一跳、字檔再一跳，跨兩個第三方網域。行動 4G 下字體回來得
+       比首次繪製晚，font-display:swap 換字時整塊文字重繪 → LCP 被推到 4.4s。
+       改成同網域單一 woff2（Sora 可變字重 400–700，latin subset 25 KB）並
+       preload，字體幾乎和 CSS 同時到位，就不會有遲到的換字重繪。
+       站上是中文站，Sora 本來就只吃 latin 字符，中文照舊走 PingFang / Noto。 */ -}}
+<link rel="preload" as="font" type="font/woff2" href="{{ "fonts/sora-latin-var.woff2" | relURL }}" crossorigin>
+<style>
+@font-face{font-family:'Sora';font-style:normal;font-weight:400 700;font-display:swap;src:url({{ "fonts/sora-latin-var.woff2" | relURL }}) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+</style>
 <style>
 .post-content table, .md-content table {
   display: block;
@@ -13,6 +19,12 @@
 }
 </style>
 {{ partial "schema.html" . }}
+
+{{- /* 圖片已從 static/ 搬到 assets/ 交給 Hugo 處理（WebP + srcset）。但
+       og:image 走的是 front matter 的 cover.image 原路徑 /images/…，只在有人
+       引用該 resource 的 RelPermalink 時才會發佈。這行就是那個引用：讓封面
+       原圖仍輸出到原網址，分享預覽不會破。不產生任何 HTML。 */ -}}
+{{- with .Params.cover }}{{ with .image }}{{ with resources.Get (strings.TrimPrefix "/" .) }}{{ $_ := .RelPermalink }}{{ end }}{{ end }}{{ end -}}
 
 {{- /* GA4 affiliate outbound-click tracking. Fires `affiliate_click` on any
        affiliate link so the monetization funnel (session → affiliate click) is

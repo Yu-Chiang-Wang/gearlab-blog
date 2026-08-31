@@ -1,0 +1,7 @@
+{{- /* Markdown ![]() 一律走 responsive-image：WebP + srcset + width/height。 */ -}}
+{{- partial "responsive-image.html" (dict
+      "src" .Destination
+      "alt" .PlainText
+      "title" .Title
+      "loading" "lazy"
+) -}}

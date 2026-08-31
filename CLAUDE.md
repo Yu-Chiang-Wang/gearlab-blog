@@ -30,14 +30,26 @@
 │   ├── privacy-policy.md
 │   ├── affiliate-disclosure.md
 │   └── selection-criteria.md
+├── assets/
+│   ├── css/extended/brand.css  # 品牌樣式（會併進主 stylesheet）
+│   └── images/                 # 所有文章圖片放這（**不是 static/**，見下方「圖片處理」）
 ├── layouts/
 │   ├── _default/
 │   │   └── links.html          # /links 頁自訂版型
+│   ├── _markup/
+│   │   └── render-image.html   # Markdown ![]() 的 render hook
+│   ├── _shortcodes/
+│   │   └── figure.html         # 覆寫內建 figure，走 responsive-image
 │   └── _partials/
-│       └── extend_footer.html  # PaperMod footer 延伸（訂閱表單）
-│       └── extend_head.html    # 自訂 CSS/JS 注入點
+│       ├── responsive-image.html   # 全站唯一的 <img> 產生器（WebP + srcset）
+│       ├── cover.html              # 覆寫 PaperMod 封面（LCP 圖，eager + fetchpriority）
+│       ├── google_analytics.html   # 覆寫內建 GA：gtag.js 延到 load 後才載
+│       ├── schema.html             # JSON-LD
+│       ├── extend_footer.html      # PaperMod footer 延伸（訂閱表單）
+│       └── extend_head.html        # 自訂 CSS/JS 注入點、自架字體
 ├── static/
-│   └── CNAME               # yu-chiang.me
+│   ├── CNAME               # yu-chiang.me
+│   └── fonts/              # 自架 Sora woff2（不再打 fonts.googleapis.com）
 ├── themes/PaperMod/        # git submodule
 ├── hugo.toml               # 主設定
 └── .github/workflows/hugo.yml  # CI/CD
@@ -103,6 +115,19 @@ CREATE POLICY "allow_public_subscribe" ON subscribers
 supabaseUrl = "https://faznibhmbrciqwctygzd.supabase.co"
 supabaseAnonKey = "sb_publishable_h5WNBoFK8Y2MfpaghnBJUg_5QbZp-QC"
 ```
+
+## 圖片處理（2026-08-31 PageSpeed 調校後）
+
+**新文章的圖片一律放 `assets/images/posts/<slug>/`，不要放 `static/images/`。**
+
+- `assets/` 底下的圖才會被 Hugo 處理：自動產生 360/480/640/720/960/1280（＋原寬）
+  的 WebP、srcset、`sizes`、`width`/`height`
+- 原圖直接丟原始尺寸，不用自己先壓；縮圖與轉檔交給
+  `layouts/_partials/responsive-image.html`
+- front matter 的 `cover.image` 路徑寫法不變（`/images/posts/<slug>/xxx.jpg`），
+  `extend_head.html` 會另外把原圖發佈回 `/images/…` 原網址，讓 `og:image` 不會破
+- 放進 `static/images/` 的圖會原尺寸直出、沒有 width/height → PageSpeed 的
+  「提升圖片傳送效能」和「圖片元素沒有明確的 width 和 height」會同時扣分
 
 ## PaperMod 客製化規則
 

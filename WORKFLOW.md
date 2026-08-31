@@ -28,7 +28,10 @@ hugo new posts/your-slug.md
 - **H1 只有 title**,內文用 H2 / H3(避免跳級)
 - **首段 150 字內**自然帶入主關鍵字
 - **表格、清單**:複雜元素要在 mobile 375px 測試(CLAUDE.md 指示)
-- **圖片**:壓縮後放 `static/images/<slug>/`,全部加 alt
+- **圖片**:放 `assets/images/posts/<slug>/`(**不是 static/**),全部加 alt
+  - 放 `assets/` 才會被 Hugo 處理成 WebP + srcset + width/height;放 static/ 會原尺寸直出,PageSpeed 直接扣分
+  - 原圖丟原始尺寸即可,**不用先壓縮**,縮圖交給 `layouts/_partials/responsive-image.html`
+  - front matter 的 `cover.image` 一樣寫 `/images/posts/<slug>/xxx.jpg`(路徑不變)
 - **內部連結**:至少 2–3 條連到既有文章
 - **外部連結**:權威來源開新分頁(`{target="_blank" rel="noopener"}`)
 - **聯盟連結**:蝦皮 `af_id=16336070025`,並在文中或文末聲明(站內已有 `/affiliate-disclosure`)
@@ -65,7 +68,7 @@ hugo --minify --cleanDestinationDir
 ## 6. Push 與部署驗證
 
 ```bash
-git add content/posts/<slug>.md static/images/<slug>/
+git add content/posts/<slug>.md assets/images/posts/<slug>/
 git commit -m "feat: add <topic> article"
 git push origin main
 ```

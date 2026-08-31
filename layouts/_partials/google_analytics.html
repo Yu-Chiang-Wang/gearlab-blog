@@ -1,0 +1,38 @@
+{{- /*
+  覆寫 Hugo 內建的 google_analytics partial（PaperMod 在 head 尾端呼叫它）。
+
+  原本 gtag.js 以 async 掛在 <head>：檔案 170 KB，行動 4G 節流下等於在首次
+  繪製前先吃掉約 0.9 秒頻寬，FCP / LCP / Speed Index 三項一起被拖。
+
+  改法：dataLayer 與 gtag() stub 立刻定義（事件照樣進佇列，不會漏），真正的
+  gtag.js 延到 load 之後才注入——此時 LCP 早就結算完畢。另外掛三個保險：
+    - 使用者提早互動（pointerdown/keydown/touchstart）就立即載入，
+      確保 extend_head.html 的 affiliate_click 一定送得出去
+    - 10 秒硬上限，避免 load 因某張圖卡住而遲遲不觸發
+  代價：極少數「不到 1 秒就離開且沒有任何互動」的工作階段會漏記。
+*/ -}}
+{{- $id := site.Config.Services.GoogleAnalytics.ID -}}
+{{- if $id -}}
+<script>
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments)}
+gtag('js',new Date());
+gtag('config','{{ $id }}');
+(function(){
+  var done=false;
+  function load(){
+    if(done)return;done=true;
+    var s=document.createElement('script');
+    s.async=true;
+    s.src='https://www.googletagmanager.com/gtag/js?id={{ $id }}';
+    document.head.appendChild(s);
+  }
+  if(document.readyState==='complete'){load()}
+  else{window.addEventListener('load',load)}
+  ['pointerdown','keydown','touchstart'].forEach(function(t){
+    window.addEventListener(t,load,{once:true,passive:true})
+  });
+  setTimeout(load,10000);
+})();
+</script>
+{{- end -}}
