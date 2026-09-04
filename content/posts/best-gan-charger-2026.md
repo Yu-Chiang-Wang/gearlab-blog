@@ -275,5 +275,6 @@ iPhone 20W、iPad Pro 45W+、MacBook Air 65W、MacBook Pro 14"+ 建議 96W 起�
 
 想了解更多充電器選購細節，可以先看：
 👉 [GaN 充電器是什麼？優缺點與安全性完整解析](/posts/what-is-gan-charger/)
+👉 要三孔、四孔款，而且會同時插滿多台裝置：[多孔 GaN 充電器推薦：三孔、四孔怎麼選？（附同時充電降速實測）](/posts/multi-port-gan-charger-2026/)
 
 有任何問題或想看其他款型比較，歡迎到 [@gearlabTW](https://www.instagram.com/gearlabTW) 留言。
