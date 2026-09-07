@@ -193,7 +193,7 @@ GaN 技術在快速迭代，早期有少部分裝置（特別是 Switch、某些
 
 ### 買 GaN 充電器要配什麼線？
 
-充電器本身不附線（大多數品牌）。要充 MacBook / iPad Pro，需要 **USB-C to USB-C** 的線，且必須標示支援到 **100W（5A）**——很多便宜線只做到 60W，充電器再強也會被線卡住。接頭種類、瓦數標示怎麼看，這篇一次講清楚：[Type-C 充電線怎麼挑？](/posts/usb-c-charging-cable/)
+充電器本身不附線（大多數品牌）。要充 MacBook / iPad Pro，需要 **USB-C to USB-C** 的線，且必須標示支援到 **100W（5A）**——很多便宜線只做到 60W，充電器再強也會被線卡住。接頭種類、瓦數標示怎麼看，這篇一次講清楚：[Type-C 充電線怎麼挑？](/posts/usb-c-charging-cable/)。至於規格上「PD」「PPS」這些快充協定標示是什麼意思、怎麼對應到自己的裝置，另外整理在 [USB-C PD 是什麼](/posts/usb-c-pd-explained/)。
 
 ### 氮化鎵充電器壽命多長？
 
