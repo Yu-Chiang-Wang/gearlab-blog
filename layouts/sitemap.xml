@@ -1,0 +1,29 @@
+{{- /*
+  客製 sitemap：排除 taxonomy（/tags/、/categories/ 列表頁）與 term（個別標籤頁）。
+
+  原因：PaperMod 對這兩類頁輸出 <meta name="robots" content="noindex, nofollow">，
+  但 Hugo 預設 sitemap 仍會把它們列進去，等於對 Google 說「請來抓」、頁面卻說
+  「不要收錄我」。2026-09-14 實測：116 個 sitemap URL 中有 87 個（75%）是這種頁，
+  GSC 涵蓋範圍報告因此累積 51 筆「遭到 noindex 標記排除」。
+
+  tag / category 頁本身保留（站內導覽仍需要），只是不進 sitemap。
+*/ -}}
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {{- range .Pages }}
+  {{- if and .Permalink (not (in (slice "taxonomy" "term") .Kind)) }}
+  <url>
+    <loc>{{ .Permalink }}</loc>
+    {{- if not .Lastmod.IsZero }}
+    <lastmod>{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | safeHTML }}</lastmod>
+    {{- end }}
+    {{- with .Sitemap.ChangeFreq }}
+    <changefreq>{{ . }}</changefreq>
+    {{- end }}
+    {{- if ge .Sitemap.Priority 0.0 }}
+    <priority>{{ .Sitemap.Priority }}</priority>
+    {{- end }}
+  </url>
+  {{- end }}
+  {{- end }}
+</urlset>
