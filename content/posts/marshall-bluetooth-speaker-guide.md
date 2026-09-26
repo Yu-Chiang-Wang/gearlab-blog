@@ -84,11 +84,11 @@ Marshall 藍牙喇叭其實就兩大類，先選對「線」，再挑型號：
 
 ### Emberton III：全系列最不會買錯的一台
 
-比 Willen 大一號但還是很好帶（0.67 kg），續航直接翻倍到 32+ 小時，而且有 True Stereophonic 360° 聲場——放在桌子中間每個方向聽感都一致。第三代加了通話麥克風和 Bluetooth 5.3 LE。**如果你只是想要「一顆 Marshall 帶著走」，從它開始就對了。** 不過上一代 Emberton II 現在還在通路降價賣，兩代到底差在哪、值不值得為了省錢買舊款，另外拆給你看：[Marshall Emberton III 和 II 差在哪？舊款還在賣，該省這筆嗎](/posts/marshall-emberton-iii-vs-ii/)。
+比 Willen 大一號但還是很好帶（0.67 kg），續航直接翻倍到 32+ 小時，而且有 True Stereophonic 360° 聲場——放在桌子中間每個方向聽感都一致。第三代加了通話麥克風和 Bluetooth 5.3 LE。**如果你只是想要「一顆 Marshall 帶著走」，從它開始就對了。** 不過上一代 Emberton II 現在還在通路降價賣，兩代到底差在哪、值不值得為了省錢買舊款，另外拆給你看：[Marshall Emberton III 和 II 差在哪？舊款還在賣，該省這筆嗎](/posts/marshall-emberton-iii-vs-ii/)。如果是在 Emberton III 和 Middleton II 之間猶豫，兩台的正面對比在這：[Marshall Emberton III 和 Middleton II 差在哪](/posts/marshall-emberton-iii-vs-middleton-ii/)。
 
 ### Middleton II：攜帶型裡的大聲公
 
-1.8 kg 就不是「隨身」而是「隨行」了——適合露營、聚會這種開車載過去的場合。兩顆 3 吋低音單體 + 兩顆高音的配置在攜帶型裡最完整，還內建**反向充電**：喇叭本體就是行動電源，手機沒電直接插上去充。
+1.8 kg 就不是「隨身」而是「隨行」了——適合露營、聚會這種開車載過去的場合。兩顆 3 吋低音單體 + 兩顆高音的配置在攜帶型裡最完整，還內建**反向充電**：喇叭本體就是行動電源，手機沒電直接插上去充。重量、音壓、續航和 Emberton III 逐項比，見 [Emberton III vs Middleton II](/posts/marshall-emberton-iii-vs-middleton-ii/)。
 
 ### Kilburn III：半個家用喇叭
 

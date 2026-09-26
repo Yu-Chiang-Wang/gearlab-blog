@@ -134,7 +134,7 @@ Apple Pencil 依 iPad 型號分為不同版本，**買錯就不能用**，這是
 | Apple Pencil 2 | iPad Pro 2018–2022、iPad Air 4/5、iPad mini 6 |
 | Apple Pencil 1 | iPad 第 6–9 代、iPad mini 5 |
 
-**確認自己的 iPad 型號後再買，不然退貨很麻煩。**
+**確認自己的 iPad 型號後再買，不然退貨很麻煩。** 4 款原廠筆的完整規格、官網售價與逐機型相容表，另外整理在 [Apple Pencil 怎麼選：第一代／第二代／USB-C／Pro 比較](/posts/apple-pencil-comparison/)。
 
 ### 推薦
 

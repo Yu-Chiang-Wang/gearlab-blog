@@ -338,5 +338,6 @@ NT$790，這份清單裡最貴的一款，價差近 10 倍，所以要講清楚�
 - 還在猶豫該貼哪一種：[iPad 保護貼要貼哪一種？高清、抗藍光、霧面、類紙膜的四方取捨](/posts/ipad-screen-protector-guide/)
 - 不用觸控筆、只想保護螢幕：[iPad 必備配件推薦 2026](/posts/best-ipad-accessories-2026/)（含螢幕保護貼四種類型比較）
 - 還沒有觸控筆：[Apple Pencil 平替推薦 2026](/posts/apple-pencil-alternatives-2026/)
+- 想買原廠筆但不確定哪支能用：[Apple Pencil 怎麼選：第一代／第二代／USB-C／Pro 比較](/posts/apple-pencil-comparison/)
 - 剛買 iPad 想知道先買什麼：[iPad 學生配件購買順序指南](/posts/ipad-student-accessories/)
 - 想連保護殼一起搞定：[iPad Air 11" 保護殼推薦 2026](/posts/ipad-air-case-2026/)

@@ -136,7 +136,7 @@ K380 的限制是沒有觸控板。如果你想要「一體式鍵盤殼＋觸控
 - 保護殼（ESR 巧拼，NT$500）
 - 充電：Anker 735 65W 三孔（NT$900）
 - 類紙膜（ESR，NT$600）
-- 觸控筆（依你的 iPad 型號選對應 Apple Pencil 或副廠筆）
+- 觸控筆（依你的 iPad 型號選對應 Apple Pencil 或副廠筆；原廠 4 款怎麼對機型，看 [Apple Pencil 比較](/posts/apple-pencil-comparison/)）
 
 ### iPad + MacBook 雙機通勤族
 

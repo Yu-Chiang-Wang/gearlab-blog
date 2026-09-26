@@ -135,7 +135,7 @@ Marshall 的攜帶型有 Stack mode（堆疊模式）可以把多台串起來同
 官方在 III 的單體欄位標了「2 吋 10W 全音域」，II 的欄位只寫「2 吋」沒有標功率。這不代表 II 的單體是 0W，只是兩頁的標示詳細程度不同。真正能拿來比大聲程度的是最大音壓那一欄（87 對 90 dB SPL @1m），不是單體瓦數——瓦數和音質、音量的關係我在[音質怎麼判斷](/posts/how-to-judge-sound-quality/)那篇的迷思段有拆解。
 
 **Q：那 Emberton 之外的型號呢？**
-Willen II 更小更輕、Middleton II 更大聲、Kilburn III 已經接近半個家用喇叭。四個攜帶型號的官方規格對照，在[全系列選購指南](/posts/marshall-bluetooth-speaker-guide/)裡有完整的表。
+Willen II 更小更輕、Middleton II 更大聲、Kilburn III 已經接近半個家用喇叭。四個攜帶型號的官方規格對照，在[全系列選購指南](/posts/marshall-bluetooth-speaker-guide/)裡有完整的表；只想知道 Emberton III 和 Middleton II 怎麼選，看 [Emberton III vs Middleton II](/posts/marshall-emberton-iii-vs-middleton-ii/)。
 
 ---
 
