@@ -1,9 +1,9 @@
 ---
 title: "iPad 鍵盤推薦 2026：從入門到旗艦，4 款依使用場景對號入座"
 date: 2026-05-12T22:00:00+08:00
-lastmod: 2026-07-20T17:00:00+08:00
+lastmod: 2026-09-28T12:00:00+08:00
 draft: false
-description: "iPad 鍵盤怎麼選？2026 年從 Logitech K380 入門款到 Combo Touch 旗艦款，依觸控板需求、預算與機型（iPad Air 4/5、Air M2、iPad Pro、第 10 代）分節推薦，直接對號入座。"
+description: "iPad 鍵盤怎麼選？從 Logitech K380 入門款到 Combo Touch、Apple 巧控鍵盤，附官方相容表：iPad Air M4／M3／M2、Air 4/5、iPad A16／第 10 代、iPad Pro M5／M4、iPad mini 各能用哪款，直接對號入座。"
 tags: ["iPad鍵盤", "iPad配件", "Logitech", "巧控鍵盤", "iPad推薦"]
 categories: ["iPad 配件"]
 slug: "ipad-keyboard-2026"
@@ -29,12 +29,12 @@ itemlist:
   - name: "Logitech Folio Touch"
     position: 4
     brand: "Logitech"
-    description: "觸控板入門版，對應 iPad 第 10 代與舊版 Air"
+    description: "觸控板鍵盤保護套，對應 iPad Air 11 吋（M2／M3／M4）與 Air 第 4、5 代"
 faq:
   - q: "iPad 鍵盤在台灣哪裡買？公司貨怎麼認？"
     a: "羅技款在蝦皮、momo、PChome 的品牌官方賣場都買得到，Apple 原廠款走 Apple 官網或授權經銷商。認公司貨看商品頁是否標示台灣公司貨／台灣保固，以及機身或包裝上有無 NCC「CCA」開頭的審驗合格標籤；平輸品保固通常只有店保。"
   - q: "iPad Air 4 / Air 5 可以用哪些鍵盤？"
-    a: "Air 4（2020）與 Air 5（2022，M1）屬 M2 之前機型：一體式觸控板方案以 Logitech Folio Touch 為主，Combo Touch 亦有對應 Air 4/5 的舊版（與 Air M2 之後的版本不通用）；純打字需求選 K380，藍牙通用沒有世代問題。磁吸與結構式鍵盤都分機型版本，下單前務必對 Logitech 官方型號對照表。"
+    a: "依 Apple 與羅技台灣官網（2026-09-28 查）：Apple「適用於 iPad Air 的巧控鍵盤」相容 Air 第 4、5 代；羅技 Folio Touch 相容 Air 第 4、5 代與 Air 11 吋（M2／M3／M4）；羅技 Combo Touch for iPad Air 列出的是 Air 第 5 代與 Air 11／13 吋（M2／M3／M4）。純打字需求選 K380 這類藍牙鍵盤，沒有世代問題。下單前仍以官方型號對照為準。"
   - q: "iPad 鍵盤一定要配對應型號嗎？"
     a: "磁吸款（Magic Keyboard、Combo Touch）必須對應型號，因為磁吸點位置每代不同。藍牙款（K380）則通用，但要確認 iPad 有開啟藍牙配對。"
   - q: "Logitech K380 的按鍵手感如何？"
@@ -49,13 +49,15 @@ faq:
 
 ---
 
-> **實測說明：** **Logitech K380** 為作者實際使用款型，文中相關描述含第一手操作心得。**Logitech Combo Touch** 與 **Apple Magic Keyboard** 基於品牌規格、蝦皮商品頁與公開測評整理，未親自實機驗證。
+> **實測說明：** **Logitech K380** 為作者實際使用款型，文中相關描述含第一手操作心得。**Logitech Combo Touch**、**Folio Touch**、**Keys-To-Go 2** 與 **Apple 巧控鍵盤** 基於品牌規格、蝦皮商品頁與公開測評整理，未親自實機驗證。
+>
+> **資料來源：** 相容機型與售價以 [Apple 台灣 iPad 鍵盤頁](https://www.apple.com/tw/ipad-keyboards/)、[Apple 台灣線上商店](https://www.apple.com/tw/shop/ipad/accessories/keyboards) 與 [羅技台灣 iPad 鍵盤頁](https://www.logitech.com/zh-tw/shop/c/ipad-keyboards) 為準，最後查證 2026-09-28。
 
 ---
 
 ## 先說結論：3 句話總結
 
-- **預算 NT$1,000 以內、需要多設備切換**：直上 **Logitech K380**（藍牙三設備切換，隨身輕巧）
+- **預算 NT$1,500 以內、需要多設備切換**：直上 **Logitech K380**（藍牙三設備切換，隨身輕巧）
 - **iPad Air / Pro 用戶、想要一體式鍵盤保護套 + 觸控板**：**Logitech Combo Touch**（ 鍵盤 + 觸控板 + 保護套三合一）
 - **預算不設限、只信原廠體驗**：**Apple Magic Keyboard**（最貴，但最流暢）
 
@@ -96,7 +98,7 @@ iPad 鍵盤的選擇其實比 MacBook 充電器更需要情境化：
 
 ### No.1 入門首選：Logitech K380 藍牙鍵盤
 
-**適合：預算 NT$1,000 以內、需要在 iPad / 電腦 / 手機之間切換**
+**適合：預算 NT$1,500 以內、需要在 iPad / 電腦 / 手機之間切換**
 
 K380 是我最常推薦給「想加鍵盤但不確定需求」的 iPad 用戶的款型。理由很單純：
 
@@ -151,7 +153,7 @@ Magic Keyboard 是 Apple 官方的 iPad Pro / iPad Air 專屬磁吸鍵盤，也�
 - 支援 USB-C 側邊充電（iPad Pro M4 版）
 - 字母鍵背光
 
-缺點是**價格非常高**：iPad Air 版 NT$8,900+，iPad Pro 版 NT$11,900+。這個預算可以買 Logitech K380 四顆，或是 Combo Touch + 零錢。
+缺點是**價格非常高**。Apple 台灣官網售價（2026-09-28 查）：iPad Air 11 吋版 NT$9,490、13 吋版 NT$9,890；iPad Pro 11 吋版 NT$9,890、13 吋版 NT$11,690。同一筆預算可以買好幾顆 K380，或一組 Combo Touch 還有找。
 
 **什麼情況值得買：** 你是重度生產力 iPad 用戶、已經投資 iPad Pro 頂規、追求最完整的原廠體驗。否則 Logitech Combo Touch 的觸控板體驗就足夠好。
 
@@ -163,24 +165,26 @@ Magic Keyboard 是 Apple 官方的 iPad Pro / iPad Air 專屬磁吸鍵盤，也�
 
 ### No.4 Logitech Folio Touch（觸控板 + 鍵盤入門版，供參考）
 
-**適合：iPad（第 10 代）、iPad Air 用戶，想要觸控板但預算比 Combo Touch 低**
+**適合：iPad Air 11 吋用戶（含 Air 4／5 舊機），想要觸控板、但不想上原廠價位**
 
-Folio Touch 是 Combo Touch 的前一代，支援 iPad 第 10 代和 iPad Air（M2 之前機型）。觸控板功能完整，鍵盤質感稍遜於 Combo Touch 但價格通常有折扣。
+依羅技台灣官網，Folio Touch 是「背光鍵盤保護套，搭配觸控式軌跡板」，相容 **iPad Air 11 吋（M2、M3 及 M4）** 與 **iPad Air（第四代和第五代）**。它**不支援一般款 iPad（第 10 代／A16）**，這兩台請看下方「依機型選鍵盤」一節的 Combo Touch for iPad。
 
-如果你的 iPad 型號和 Combo Touch 不相容（例如舊版 iPad Air），Folio Touch 是可行的替代方案，蝦皮上時常有促銷價。
+注意 Folio Touch 只有 11 吋版本；用 13 吋 iPad Air 的話，羅技的觸控板選項是 Combo Touch for iPad Air 13 吋版。
 
-> 注意：Folio Touch 沒有 Combo Touch 可拆卸鍵盤設計，鍵盤是固定的，攜帶略為笨重。
+> ⚠️ **2026-09-28 更正：** 本文舊版寫 Folio Touch「支援 iPad 第 10 代」，與羅技官方相容資訊不符，已更正。
 
 ---
 
 ## 規格對比總表
 
-| 款型 | 觸控板 | 保護套 | 適用機型 | 重量（含套）| 建議售價 |
+| 款型 | 觸控板 | 保護套 | 適用機型（官方相容資訊）| 重量 | 參考售價 |
 |---|---|---|---|---|---|
-| Logitech K380 | ✗ | ✗ | 通用藍牙 | ~423g | NT$800–1,000 |
-| Logitech Folio Touch | ✓ | ✓ | iPad 10th / Air M1 | 依型號 | NT$2,500–3,500 |
-| Logitech Combo Touch | ✓ | ✓ | iPad Air M2+ / Pro | 依型號 | NT$4,500–6,500 |
-| Apple Magic Keyboard | ✓ | 部分 | iPad Air / Pro（對應世代）| 依型號 | NT$8,900–11,900 |
+| Logitech K380 | ✗ | ✗ | 通用藍牙 | ~423g | 依通路浮動（本站建檔時蝦皮約 NT$1,000–1,400）|
+| Logitech Folio Touch | ✓ | ✓ | iPad Air 11 吋（M2–M4）、Air 4／5 | 依型號 | 依通路浮動 |
+| Logitech Combo Touch | ✓ | ✓ | 分 iPad／iPad Air／iPad Pro 三個版本（見下方相容表）| 依型號 | Apple 官網代售 NT$5,090（iPad A16）／NT$6,790（Air M4 11 吋）／NT$7,790（Pro M5 11 吋）|
+| Apple 巧控鍵盤 | ✓ | 部分 | iPad Air（M2–M4、Air 4／5）／iPad Pro（M4、M5）| 依型號 | NT$9,490–11,690（Apple 官網）|
+
+> 售價為 2026-09-28 Apple 台灣官網標價；蝦皮、momo 等通路常有折扣，下單前以商品頁即時價為準。
 
 ---
 
@@ -191,35 +195,65 @@ Folio Touch 是 Combo Touch 的前一代，支援 iPad 第 10 代和 iPad Air（
 - 需要（希望接近筆電） → 看 Q2
 
 **Q2：你的 iPad 型號是？**
-- iPad Pro M2+ / iPad Air M2+ → **Logitech Combo Touch**（或 Magic Keyboard）
-- iPad（第 10 代）/ 舊版 iPad Air → **Logitech Folio Touch**
+- iPad Pro（M4／M5）／ iPad Air（M2／M3／M4）→ **Logitech Combo Touch** 對應版本（或 Apple 巧控鍵盤）
+- iPad Air 4／5 → **Logitech Folio Touch**（或 Apple 適用於 iPad Air 的巧控鍵盤）
+- iPad（A16／第 10 代）→ **Logitech Combo Touch for iPad**（或 Apple 巧控鍵盤雙面夾）
+- iPad mini → 沒有原廠鍵盤，選**藍牙鍵盤**（見下方機型一節）
 
 **Q3：你的預算上限？**
-- NT$1,000 以內 → K380 無腦
-- NT$3,000–6,000 → Combo Touch 甜蜜點
-- 不設限 → Apple Magic Keyboard
+- NT$1,500 以內 → K380 這類藍牙鍵盤
+- NT$5,000–8,000 → Combo Touch（依機型，見下方相容表）
+- 不設限 → Apple 巧控鍵盤（NT$8,790 起）
 
 ---
 
-## 依 iPad 機型選鍵盤：Air 4/5、Air M2、Pro、第 10 代對號入座
+## 依 iPad 機型選鍵盤：官方相容表（Air M4／M3／M2、A16、Pro M5、mini）
 
-上面的決策樹能篩掉大半選項，這裡直接按機型給結論。提醒：磁吸與一體式鍵盤都分機型版本，**下單前務必對 Logitech 官方型號對照表**。
+上面的決策樹能篩掉大半選項，這裡直接按機型對照。**磁吸與一體式鍵盤都分機型、分尺寸**，下表整理自 Apple 與羅技台灣官網的相容資訊（2026-09-28 查證），下單前仍建議再對一次商品頁的型號。
+
+| 你的 iPad | Apple 原廠 | 羅技一體式（有觸控板）| 不需要觸控板 |
+|---|---|---|---|
+| iPad Pro 11／13 吋（M4、M5）| 適用於 iPad Pro 的巧控鍵盤 | Combo Touch for iPad Pro | K380 等藍牙鍵盤 |
+| iPad Air 11／13 吋（M2、M3、M4）| 適用於 iPad Air 的巧控鍵盤 | Combo Touch for iPad Air；11 吋另可選 Folio Touch | K380 等藍牙鍵盤 |
+| iPad Air 第 4、5 代 | 適用於 iPad Air 的巧控鍵盤 | Folio Touch（Air 4／5）；Combo Touch for iPad Air（官網列 Air 5）| K380 等藍牙鍵盤 |
+| iPad（A16）、iPad 第 10 代 | 巧控鍵盤雙面夾 | Combo Touch for iPad | Slim Folio for iPad（無觸控板保護殼）或 K380 |
+| iPad mini（A17 Pro 等）| 無原廠鍵盤 | 無 | 藍牙鍵盤：K380、Keys-To-Go 2 |
+
+### iPad Air M4 鍵盤推薦
+
+Apple「適用於 iPad Air 的巧控鍵盤」與羅技 Combo Touch for iPad Air 的官方相容清單都已列入 M4，**M2、M3、M4 三代共用同一系列**，換機後舊鍵盤多半可沿用（仍需同尺寸）。預算有限選 Combo Touch（Apple 官網代售 11 吋 NT$6,790），想要原廠懸浮設計選巧控鍵盤（11 吋 NT$9,490）。值不值得上原廠，攤提分析見[這篇](/posts/ipad-magic-keyboard-alternatives/)。
+
+### iPad Air 11 吋 vs 13 吋：鍵盤要分尺寸買
+
+11 吋和 13 吋的鍵盤**不能混用**。13 吋版本通常貴一點：Apple 巧控鍵盤 13 吋 NT$9,890、11 吋 NT$9,490。羅技方面，**Folio Touch 只有 11 吋**，13 吋 Air 想要觸控板就選 Combo Touch for iPad Air 的 13 吋版。
 
 ### iPad Air 4 / Air 5 鍵盤推薦
 
-Air 4（2020）與 Air 5（2022，M1）屬 M2 之前機型：一體式觸控板方案以 **Logitech Folio Touch** 為主，Combo Touch 亦有對應 Air 4/5 的舊版（與新版 Air M2+ 的版本不通用，下單前對型號）。不需要觸控板就直上 **K380**，藍牙通用完全沒有世代問題。
+Air 4（2020）與 Air 5（2022，M1）的選項比想像中多：Apple 官網把 Air 4／5 列在「適用於 iPad Air 的巧控鍵盤」相容清單裡；羅技則是 **Folio Touch**（官網列 Air 第 4、5 代）。不需要觸控板就直上 **K380**，藍牙通用完全沒有世代問題。
 
-### iPad Air（M2 / M3）鍵盤推薦
+### iPad（A16）／第 10 代 鍵盤推薦
 
-新版 Air 的一體式首選 **Logitech Combo Touch**（選對應 M2 之後機型的版本）；預算不設限可上 **Apple Magic Keyboard**（Air 版 NT$8,900 起）。值不值得上原廠，攤提分析見[這篇](/posts/ipad-magic-keyboard-alternatives/)。
+一般款 iPad 的鍵盤是**獨立一條產品線**，不能用 Air 的版本：
 
-### iPad Pro 鍵盤推薦
+- **要觸控板**：羅技 **Combo Touch for iPad**（官網相容第 10 代與 A16，Apple 官網代售 NT$5,090），或 Apple **巧控鍵盤雙面夾**（NT$8,790）
+- **只要打字**：羅技 **Slim Folio for iPad**（Apple 官網代售 NT$3,290），或 **K380 + 支架保護殼**，總價最低
 
-**Combo Touch**（生產力甜蜜點）或 **Magic Keyboard**（原廠體驗最完整，Pro 版 NT$11,900 起）二選一。注意 Pro 12.9" 與 Pro 13"（M4）的版本不通用。
+> 「iPad 11」這個說法常同時被用來指兩種機型：一般款 **iPad（A16）**（第 10 代的下一代），以及 **11 吋** iPad Air／Pro。兩者鍵盤完全不通用；如果你的是 11 吋 iPad Air 或 iPad Pro，請看上面兩節。可以在「設定 > 一般 > 關於本機 > 機型名稱」確認。
 
-### iPad（第 10 代）鍵盤推薦
+### iPad Pro（M4／M5）鍵盤推薦
 
-一體式以 **Folio Touch** 為主要選項；或用 **K380 + 支架保護殼**的組合，總價不到 Combo Touch 的一半，輕度打字反而更輕鬆。
+**Combo Touch for iPad Pro**（Apple 官網代售 11 吋 NT$7,790）或 **Apple 適用於 iPad Pro 的巧控鍵盤**（11 吋 NT$9,890、13 吋 NT$11,690）二選一，兩者官方相容清單都含 M4 與 M5。注意 Pro 12.9 吋（第 5、6 代）與 Pro 13 吋（M4 之後）的版本不通用。
+
+### iPad mini 鍵盤推薦
+
+Apple **沒有**為 iPad mini 推出原廠鍵盤，官網的說法是 iPad 與 Apple 及第三方**藍牙鍵盤**相容。所以 mini 的選項就是藍牙鍵盤：
+
+- **K380**（本文 No.1）：三設備切換，mini + 手機 + 電腦一起用最方便
+- **羅技 Keys-To-Go 2**：官網定位「極致便攜鍵盤，附保護蓋」，支援 iPadOS，可連最多三個裝置，適合跟 mini 一起塞進小包
+
+mini 本身不能磁吸站立，搭配有支架功能的保護殼會比較好打字。
+
+> ℹ️ 羅技官網目前在 iPad 鍵盤頁列的是 K380 的後繼款 **Pebble Keys 2 K380s**；兩者都是藍牙三設備切換的輕巧鍵盤，本文 No.1 的使用心得來自原版 K380。
 
 ---
 
@@ -259,7 +293,7 @@ iPad 鍵盤保護套的支架角度固定款只能調一個角度，可調角度
 
 ### iPad Air 4 / Air 5 可以用哪些鍵盤？
 
-Air 4 與 Air 5 屬 M2 之前機型：一體式觸控板方案以 **Logitech Folio Touch** 為主，Combo Touch 亦有對應 Air 4/5 的舊版（與 Air M2 之後的版本不通用）；純打字需求選 **K380**，藍牙通用沒有世代問題。詳見上面「依 iPad 機型選鍵盤」一節。
+依 Apple 與羅技台灣官網（2026-09-28 查）：Apple「適用於 iPad Air 的巧控鍵盤」相容 Air 第 4、5 代；羅技 **Folio Touch** 相容 Air 第 4、5 代；**Combo Touch for iPad Air** 官網列的是 Air 第 5 代。純打字需求選 **K380**，藍牙通用沒有世代問題。詳見上面「依 iPad 機型選鍵盤」的相容表。
 
 ### iPad 鍵盤一定要配對應型號嗎？
 
@@ -296,3 +330,9 @@ iPad 鍵盤的最優解因人而異：
 👉 [GaN 充電器是什麼？優缺點與安全性完整解析](/posts/what-is-gan-charger/)
 
 有任何問題或想看其他款型比較，歡迎到 [@gearlabTW](https://www.instagram.com/gearlabTW) 留言。
+
+---
+
+**更新紀錄**
+
+- 2026-09-28：依 Apple、羅技台灣官網重新查證相容機型與售價。新增官方相容表與 iPad Air M4、Air 11／13 吋、iPad（A16）、iPad Pro M5、iPad mini 各節；更正 Folio Touch 相容機型（舊版誤植支援 iPad 第 10 代）；Apple 巧控鍵盤售價更新為官網現價。
