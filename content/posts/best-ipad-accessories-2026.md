@@ -1,7 +1,7 @@
 ---
 title: "2026 iPad 配件推薦懶人包｜保護殼、鍵盤、觸控筆、螢幕貼怎麼選"
 date: 2026-05-12T12:00:00+08:00
-lastmod: 2026-07-04T12:00:00+08:00
+lastmod: 2026-09-27T12:00:00+08:00
 draft: false
 description: "iPad 保護殼、螢幕保護貼、觸控筆、鍵盤怎麼選？2026 懶人包按預算整理四大類配件，從 NT$300 入門到旗艦款照需求對號入座，直接避開踩雷款。"
 tags: ["iPad", "iPad配件", "iPad保護殼", "Apple Pencil", "iPad鍵盤", "3C推薦"]
@@ -27,7 +27,7 @@ cover:
 |---|---|---|---|
 | 保護殼 | ESR 輕薄透明殼（NT$400–600） | TORRAS 磁吸支架殼（NT$800–1,200） | Apple Smart Folio（NT$2,800+） |
 | 螢幕保護貼 | ELECOM 防指紋霧面貼（NT$300–500） | ESR 類紙膜（NT$500–700） | Paperlike 類紙膜（NT$900–1,200） |
-| 觸控筆 | ESR Digital Pencil（NT$500–800） | Apple Pencil USB-C（NT$1,490） | Apple Pencil Pro（NT$3,290） |
+| 觸控筆 | ESR Digital Pencil（NT$500–800） | Apple Pencil USB-C（NT$2,690） | Apple Pencil Pro（NT$4,390） |
 | 鍵盤 | 羅技 K380 多裝置藍牙（NT$1,000–1,400） | Logitech Combo Touch（NT$3,500–4,500） | Apple Magic Keyboard（NT$7,990+） |
 
 ---
@@ -129,28 +129,30 @@ Apple Pencil 依 iPad 型號分為不同版本，**買錯就不能用**，這是
 
 | 觸控筆型號 | 相容機型 |
 |---|---|
-| Apple Pencil Pro | iPad Pro M4、iPad Air M2/M3 |
-| Apple Pencil（USB-C） | 所有 USB-C 接口 iPad（含 iPad 第 10 代） |
+| Apple Pencil Pro | iPad Pro M4／M5、iPad Air M2／M3／M4、iPad mini（A17 Pro） |
+| Apple Pencil（USB-C） | 所有 USB-C 接口 iPad（含 iPad 第 10 代、iPad A16） |
 | Apple Pencil 2 | iPad Pro 2018–2022、iPad Air 4/5、iPad mini 6 |
-| Apple Pencil 1 | iPad 第 6–9 代、iPad mini 5 |
+| Apple Pencil 1 | iPad 第 6–9 代、iPad Air 3、iPad mini 5；iPad 第 10 代／A16 也能用，但要另購 USB-C 轉接器 |
+
+> 相容性依 [Apple 官方相容性頁面](https://support.apple.com/zh-tw/guide/ipad/ipad47ee2e98/ipados)整理，售價為 Apple 台灣官網公告（2026-09-16 查證），以官網當下為準。
 
 **確認自己的 iPad 型號後再買，不然退貨很麻煩。** 4 款原廠筆的完整規格、官網售價與逐機型相容表，另外整理在 [Apple Pencil 怎麼選：第一代／第二代／USB-C／Pro 比較](/posts/apple-pencil-comparison/)。
 
 ### 推薦
 
-**Apple Pencil USB-C｜日常使用 NT$1,490**
+**Apple Pencil USB-C｜日常使用 NT$2,690**
 
-- 適用所有 USB-C 接口 iPad，相容性最廣
-- 支援傾斜感應（適合繪圖）
-- 不支援磁吸充電，需用 USB-C 線充電——這是唯一缺點
+- 適用所有 USB-C 接口 iPad，相容性最廣，也是原廠 4 款裡最便宜的
+- 支援傾斜感應，但**沒有壓力感應**——線條粗細不會隨下筆力道變化，認真畫圖的人不適合
+- 不支援磁吸充電，需用 USB-C 線充電
 - 適合：一般筆記、標示重點用途
 
-**Apple Pencil Pro｜旗艦 NT$3,290**
+**Apple Pencil Pro｜旗艦 NT$4,390**
 
 - 新增「捏壓手勢」切換工具，不用觸碰螢幕
 - 「懸停預覽」功能：筆尖接近螢幕前就先顯示游標
 - 磁吸充電 + 磁吸吸附背面
-- 適合：iPad Pro M4 或 iPad Air M3 用戶、有繪圖需求
+- 適合：iPad Pro M4／M5、iPad Air M2 以後、iPad mini（A17 Pro）用戶，有繪圖需求
 
 **ESR Digital Pencil｜預算首選 NT$500–800**
 
@@ -218,20 +220,20 @@ Apple Pencil 依 iPad 型號分為不同版本，**買錯就不能用**，這是
 - **觸控筆**：ESR Digital Pencil（NT$600）
 - 不需要鍵盤 → 總計約 NT$1,450
 
-### 中度生產力（預算 NT$5,000 以內）
+### 中度生產力（預算約 NT$5,500）
 
 - **保護殼**：TORRAS 磁吸支架殼（NT$1,000）
 - **螢幕貼**：ESR 類紙膜（NT$600）
-- **觸控筆**：Apple Pencil USB-C（NT$1,490）
+- **觸控筆**：Apple Pencil USB-C（NT$2,690）
 - **鍵盤**：羅技 K380（NT$1,200）
-- 總計約 NT$4,290
+- 總計約 NT$5,490
 
 ### 旗艦生產力（iPad Pro / Air 用戶）
 
 - **保護殼 + 鍵盤**：Logitech Combo Touch（NT$4,000）
 - **螢幕貼**：Paperlike 類紙膜（NT$1,100）
-- **觸控筆**：Apple Pencil Pro（NT$3,290）
-- 總計約 NT$8,390
+- **觸控筆**：Apple Pencil Pro（NT$4,390）
+- 總計約 NT$9,490
 
 ---
 
