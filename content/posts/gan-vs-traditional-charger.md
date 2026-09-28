@@ -155,7 +155,7 @@ GaN 的優點：同瓦數更小、更輕、發熱少、效率高（約 90–95% 
 
 ## 下一步：決定換了，看該買哪一款
 
-- ⚡ **想直接看熱門推薦比較** → [GaN 充電器推薦 2026：五款高 CP 值實測比較](/posts/best-gan-charger-2026/)
+- ⚡ **想直接看熱門推薦比較** → [GaN 充電器推薦 2026：五款高 CP 值規格比較](/posts/best-gan-charger-2026/)
 - 💻 **MacBook 用戶依機型對號入座** → [MacBook 充電器推薦 2026](/posts/best-macbook-charger-2026/)（含綠聯 65W CD275 實機照與第一手實測）
 - 🔌 **先搞懂快充協定再挑** → [USB-C PD 是什麼](/posts/usb-c-pd-explained/)
 - 📖 **還想多了解氮化鎵本身** → [GaN 充電器是什麼？三大缺點一次看懂](/posts/what-is-gan-charger/)
