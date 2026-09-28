@@ -20,20 +20,15 @@ itemlist:
   - name: "ESR 巧拼系列保護套"
     position: 2
     brand: "ESR"
-    description: "預算款輕薄支架殼，商品名標示適用 2024 iPad Air／Pro 11／13"
+    description: "預算款輕薄支架殼，蝦皮規格選單有 iPad Pro 11／13 吋（M4／M5）選項"
     url: "https://s.shopee.tw/4qCPRK1SAE"
-  - name: "ESR 眾置系列可升降雙用款"
-    position: 3
-    brand: "ESR"
-    description: "可升降多角度支架殼，商品名標示全機型，需在規格選單選 Pro 對應尺寸"
-    url: "https://s.shopee.tw/7AaOIrpId3"
   - name: "Spigen Ultra Hybrid Pro"
-    position: 4
+    position: 3
     brand: "Spigen"
     description: "透明背蓋＋防摔邊框，商品名標示適用 iPad Air 11／Pro 11，下單前確認世代"
     url: "https://s.shopee.tw/6fe7hwrCdy"
   - name: "Logitech Combo Touch（iPad Pro 13 吋 M4／M5）"
-    position: 5
+    position: 4
     brand: "Logitech"
     description: "可拆式觸控板鍵盤保護套，商品名標示 iPad Pro 13 吋 M4／M5"
     url: "https://s.shopee.tw/40dIRn4cr9"
@@ -87,17 +82,16 @@ faq:
 
 ---
 
-## 二、依用途挑殼：5 種選法
+## 二、依用途挑殼：4 種選法
 
 以下每一款都要**在商品頁規格選單選到你的機型**。蝦皮標價為作者登錄連結時的區間，實際以商品頁當下價格為準。
 
 | 用途 | 款型 | 參考價 | 相容標示（依商品名／官方） | 連結 |
 |---|---|---|---|---|
 | 確定相容、要原廠 | Apple 聰穎雙面夾 | 11 吋 NT$2,590／13 吋 NT$3,290（Apple 官網） | 官方標示 Pro M5 與 M4 | [Apple 官網](https://www.apple.com/tw/shop/ipad/accessories/cases-protection) |
-| 預算低、要支架 | ESR 巧拼系列保護套 | NT$400–600 | 2024 iPad Air／Pro 11／13 | [蝦皮](https://s.shopee.tw/4qCPRK1SAE) |
-| 桌面多角度、升降 | ESR 眾置系列可升降雙用款 | NT$1,799 | 全機型（選單選尺寸） | [蝦皮](https://s.shopee.tw/7AaOIrpId3) |
+| 預算低、要支架 | ESR 巧拼系列保護套 | NT$400–600 | 規格選單有 Pro 11／13 吋（M4／M5）| [蝦皮](https://s.shopee.tw/4qCPRK1SAE) |
 | 透明、重視防摔 | Spigen Ultra Hybrid Pro | NT$1,690 | iPad Air 11／Pro 11（確認世代） | [蝦皮](https://s.shopee.tw/6fe7hwrCdy) |
-| 當筆電用、要觸控板 | Logitech Combo Touch | 以商品頁為準（Apple 官網代售 11 吋 M5 版 NT$7,790，2026-09-28）| iPad Pro 13 吋 M4／M5 | [蝦皮](https://s.shopee.tw/40dIRn4cr9) |
+| 當筆電用、要觸控板 | Logitech Combo Touch | NT$3,990（蝦皮，2026-09-28 查）| iPad Pro 13 吋 M4／M5 | [蝦皮](https://s.shopee.tw/40dIRn4cr9) |
 
 ### 原廠：Apple 聰穎雙面夾
 
@@ -107,19 +101,11 @@ faq:
 
 ### 預算款：ESR 巧拼系列保護套
 
-- 商品名標示適用 **2024 iPad Air／Pro 11／13**（2024 年上市的 Pro 即 M4 世代）
+- 蝦皮商品頁的規格選單有 **iPad Pro 11 吋／13 吋（M4／M5）** 選項（2026-09-28 查）
 - 透明背蓋＋支架結構，是站上 [iPad Air 保護殼推薦](/posts/ipad-air-case-2026/) 的預算款同系列
-- ⚠️ M5 是 2025 年機型，因為尺寸與 M4 相同，理論上可沿用 M4 版本；**下單前仍以商品頁選單是否列出你的機型為準**
+- ⚠️ 選單裡同時有 iPad Air 與舊款 Pro 的選項，**對照第一節的尺寸表選 Pro M4／M5 那一項**
 
 [在蝦皮查看 ESR 巧拼系列](https://s.shopee.tw/4qCPRK1SAE)
-
-### 多角度：ESR 眾置系列可升降雙用款
-
-- 商品名標示「全機型」，不同機型在規格選單分開販售
-- 適合：常在桌面畫圖、看文件，需要比一般三折殼更多角度的人
-- ⚠️ 全機型商品最容易選錯：選單裡同時會有「Pro 11 吋」的新舊版本，**對照上面的尺寸表選 M4／M5 那一項**
-
-[在蝦皮查看 ESR 眾置系列](https://s.shopee.tw/7AaOIrpId3)
 
 ### 透明防摔：Spigen Ultra Hybrid Pro
 

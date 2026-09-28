@@ -28,7 +28,7 @@ cover:
 | 保護殼 | ESR 輕薄透明殼（NT$400–600） | TORRAS 磁吸支架殼（NT$800–1,200） | Apple Smart Folio（NT$2,800+） |
 | 螢幕保護貼 | ELECOM 防指紋霧面貼（NT$300–500） | ESR 類紙膜（NT$500–700） | Paperlike 類紙膜（NT$900–1,200） |
 | 觸控筆 | ESR Digital Pencil（NT$500–800） | Apple Pencil USB-C（NT$2,690） | Apple Pencil Pro（NT$4,390） |
-| 鍵盤 | 羅技 K380 多裝置藍牙（NT$1,000–1,400） | Logitech Combo Touch（NT$3,500–4,500） | Apple 巧控鍵盤（NT$8,790 起） |
+| 鍵盤 | 羅技 K380 多裝置藍牙（NT$1,000–1,400） | Logitech Combo Touch（NT$3,990） | Apple 巧控鍵盤（NT$8,790 起） |
 
 ---
 
@@ -190,7 +190,7 @@ Apple Pencil 依 iPad 型號分為不同版本，**買錯就不能用**，這是
 - 沒有觸控板是最大限制
 - 適合：預算有限、偶爾需要打字、多裝置用戶
 
-**Logitech Combo Touch｜高 CP 值 NT$3,500–4,500**
+**Logitech Combo Touch｜NT$3,990（iPad Pro 13 吋 M4／M5 版，蝦皮 2026-09-28 查）**
 
 [在蝦皮查看 Logitech Combo Touch 鍵盤保護套](https://s.shopee.tw/40dIRn4cr9)
 
@@ -229,7 +229,7 @@ Apple Pencil 依 iPad 型號分為不同版本，**買錯就不能用**，這是
 
 ### 旗艦生產力（iPad Pro / Air 用戶）
 
-- **保護殼 + 鍵盤**：Logitech Combo Touch（NT$4,000）
+- **保護殼 + 鍵盤**：Logitech Combo Touch（NT$3,990）
 - **螢幕貼**：Paperlike 類紙膜（NT$1,100）
 - **觸控筆**：Apple Pencil Pro（NT$4,390）
 - 總計約 NT$9,490
@@ -257,4 +257,5 @@ Apple Pencil 依 iPad 型號分為不同版本，**買錯就不能用**，這是
 
 **更新紀錄**
 
+- 2026-09-28：Logitech Combo Touch 售價更新為蝦皮實查 NT$3,990。
 - 2026-09-28：更正：舊版實測說明寫 ESR 類紙膜、羅技 K380 為作者實際使用款型，並不屬實，已改為全文未實測；移除無法查證的比較句；Apple 巧控鍵盤售價更新為官網價。
