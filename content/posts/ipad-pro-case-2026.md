@@ -44,7 +44,7 @@ faq:
     a: "要看 Pro 是哪一代。iPad Air 11 吋（M2／M3／M4）和舊款 iPad Pro 11 吋（第 4 代）的長寬都是 247.6 × 178.5 公釐，只差 0.2 公釐厚度；但 M4／M5 的 Pro 11 吋尺寸完全不同，不能共用 Air 的殼。相機位置與按鍵開孔另有差異，最保險的做法是買商品頁明確列出你機型的版本。"
 ---
 
-> 本文含蝦皮分潤連結，如您透過連結完成購買，作者將獲得分潤回饋，實際售價與一般購買相同。本文觀點基於公開技術資料與實際使用 iPad 的場景整理。
+> 本文含蝦皮分潤連結，如您透過連結完成購買，作者將獲得分潤回饋，實際售價與一般購買相同。本文內容依 Apple 官方技術規格、Apple 台灣線上商店與蝦皮商品頁整理。
 
 ---
 
@@ -97,7 +97,7 @@ faq:
 | 預算低、要支架 | ESR 巧拼系列保護套 | NT$400–600 | 2024 iPad Air／Pro 11／13 | [蝦皮](https://s.shopee.tw/4qCPRK1SAE) |
 | 桌面多角度、升降 | ESR 眾置系列可升降雙用款 | NT$1,799 | 全機型（選單選尺寸） | [蝦皮](https://s.shopee.tw/7AaOIrpId3) |
 | 透明、重視防摔 | Spigen Ultra Hybrid Pro | NT$1,690 | iPad Air 11／Pro 11（確認世代） | [蝦皮](https://s.shopee.tw/6fe7hwrCdy) |
-| 當筆電用、要觸控板 | Logitech Combo Touch | NT$3,500–4,500 | iPad Pro 13 吋 M4／M5 | [蝦皮](https://s.shopee.tw/40dIRn4cr9) |
+| 當筆電用、要觸控板 | Logitech Combo Touch | 以商品頁為準（Apple 官網代售 11 吋 M5 版 NT$7,790，2026-09-28）| iPad Pro 13 吋 M4／M5 | [蝦皮](https://s.shopee.tw/40dIRn4cr9) |
 
 ### 原廠：Apple 聰穎雙面夾
 
