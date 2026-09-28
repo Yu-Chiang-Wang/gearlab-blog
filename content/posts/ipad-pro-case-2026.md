@@ -2,7 +2,7 @@
 title: "iPad Pro 保護殼推薦 2026：M4／M5 和舊款 Pro 11 殼不能混用，先對尺寸再挑款"
 date: 2026-10-07T08:00:00+08:00
 lastmod: 2026-10-07T08:00:00+08:00
-draft: true
+draft: false
 description: "iPad Pro 保護殼最常買錯的不是款式，是機型：M4／M5 的 11 吋 Pro 比舊款 Pro 11 更高、更窄、更薄，舊殼套不進去。這篇用 Apple 官方技術規格整理各代 iPad Pro 的尺寸對照，再依用途整理原廠聰穎雙面夾、輕薄支架殼、升降殼、透明防摔殼與鍵盤保護套的選法。"
 tags: ["iPad Pro", "iPad保護殼", "iPad配件", "ESR", "Spigen", "Logitech"]
 categories: ["iPad 配件"]
@@ -25,7 +25,7 @@ itemlist:
   - name: "Spigen Ultra Hybrid Pro"
     position: 3
     brand: "Spigen"
-    description: "透明背蓋＋防摔邊框，商品名標示適用 iPad Air 11／Pro 11，下單前確認世代"
+    description: "透明背蓋＋防摔邊框，蝦皮規格選單有 iPad Pro M4／M5 選項"
     url: "https://s.shopee.tw/6fe7hwrCdy"
   - name: "Logitech Combo Touch（iPad Pro 13 吋 M4／M5）"
     position: 4
@@ -90,7 +90,7 @@ faq:
 |---|---|---|---|---|
 | 確定相容、要原廠 | Apple 聰穎雙面夾 | 11 吋 NT$2,590／13 吋 NT$3,290（Apple 官網） | 官方標示 Pro M5 與 M4 | [Apple 官網](https://www.apple.com/tw/shop/ipad/accessories/cases-protection) |
 | 預算低、要支架 | ESR 巧拼系列保護套 | NT$400–600 | 規格選單有 Pro 11／13 吋（M4／M5）| [蝦皮](https://s.shopee.tw/4qCPRK1SAE) |
-| 透明、重視防摔 | Spigen Ultra Hybrid Pro | NT$1,690 | iPad Air 11／Pro 11（確認世代） | [蝦皮](https://s.shopee.tw/6fe7hwrCdy) |
+| 透明、重視防摔 | Spigen Ultra Hybrid Pro | NT$1,690 | 規格選單有 Pro M4／M5 | [蝦皮](https://s.shopee.tw/6fe7hwrCdy) |
 | 當筆電用、要觸控板 | Logitech Combo Touch | NT$3,990（蝦皮，2026-09-28 查）| iPad Pro 13 吋 M4／M5 | [蝦皮](https://s.shopee.tw/40dIRn4cr9) |
 
 ### 原廠：Apple 聰穎雙面夾
@@ -110,7 +110,8 @@ faq:
 ### 透明防摔：Spigen Ultra Hybrid Pro
 
 - 商品名標示 **iPad Air 11／Pro 11**
-- 依第一節的尺寸表，Air 11 吋與舊款 Pro 11 吋長寬相同，這類合併標示**不一定涵蓋 M4／M5**；請在商品頁確認是否有獨立的 M4／M5 選項，沒有就不要下單
+- 蝦皮商品頁的規格選單有 **iPad Pro（M4／M5）** 選項（2026-09-28 查）
+- ⚠️ 商品名同時寫 Air 11／Pro 11，選單裡新舊機型並列，**對照第一節的尺寸表選 Pro M4／M5 那一項**
 
 [在蝦皮查看 Spigen Ultra Hybrid Pro](https://s.shopee.tw/6fe7hwrCdy)
 
