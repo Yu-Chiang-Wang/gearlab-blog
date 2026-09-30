@@ -47,7 +47,7 @@ cover:
 
 ---
 
-> **想直接看各品類的完整推薦？** 保護殼 → [iPad Air 11" 保護殼推薦](/posts/ipad-air-case-2026/)｜鍵盤 → [iPad 鍵盤推薦](/posts/ipad-keyboard-2026/)｜配件總覽 → [iPad 必備配件完整指南](/posts/best-ipad-accessories-2026/)
+> **想直接看各品類的完整推薦？** 保護殼 → [iPad Air 11" 保護殼推薦](/posts/ipad-air-case-2026/)｜鍵盤 → [iPad 鍵盤推薦](/posts/ipad-keyboard-2026/)｜配件總覽 → [iPad 必備配件完整指南](/posts/best-ipad-accessories-2026/)｜要接隨身碟、投影 → [iPad Hub 怎麼選](/posts/ipad-usb-c-hub-guide/)
 
 ---
 

@@ -318,3 +318,4 @@ MK235 是「不踩雷的入門答案」。羅技品質 + 親民價，銷量同�
 - iPad 要配磁吸鍵盤還是外接桌面鍵鼠？[iPad 鍵盤推薦 2026](/posts/ipad-keyboard-2026/)
 - 桌面充電一次到位：[2026 GaN 充電器推薦](/posts/best-gan-charger-2026/)
 - iPad 配件全套搭配：[iPad 必備配件推薦 2026](/posts/best-ipad-accessories-2026/)
+- 2.4G 接收器要 USB-A 孔，iPad 接 Hub 怎麼挑：[iPad USB-C Hub 怎麼選](/posts/ipad-usb-c-hub-guide/)

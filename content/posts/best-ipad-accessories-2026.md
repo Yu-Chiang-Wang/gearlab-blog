@@ -42,7 +42,7 @@ iPad 本體只是起點，真正讓它好用的是「對的配件組合」。
 
 ---
 
-> **想深入看各品類專題？** 保護殼 → [iPad Air 11" 保護殼推薦 2026](/posts/ipad-air-case-2026/)｜鍵盤 → [iPad 鍵盤推薦 2026](/posts/ipad-keyboard-2026/)｜想知道巧控鍵盤值不值得 → [iPad 巧控鍵盤值得買嗎？4 條替代路徑](/posts/ipad-magic-keyboard-alternatives/)
+> **想深入看各品類專題？** 保護殼 → [iPad Air 11" 保護殼推薦 2026](/posts/ipad-air-case-2026/)｜鍵盤 → [iPad 鍵盤推薦 2026](/posts/ipad-keyboard-2026/)｜想知道巧控鍵盤值不值得 → [iPad 巧控鍵盤值得買嗎？4 條替代路徑](/posts/ipad-magic-keyboard-alternatives/)｜要接隨身碟、外接螢幕 → [iPad Hub 怎麼選](/posts/ipad-usb-c-hub-guide/)
 
 ---
 
