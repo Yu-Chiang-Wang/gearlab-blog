@@ -1,6 +1,7 @@
 ---
 title: "Marshall 藍牙喇叭怎麼選？從 Emberton 到 Woburn 全系列一次搞懂"
 date: 2026-07-08T10:00:00+08:00
+lastmod: 2026-10-06T08:00:00+08:00
 draft: false
 description: "Marshall 藍牙喇叭型號多到眼花？這篇把全系列拆成「攜帶型」與「家用型」兩條線：Willen、Emberton、Middleton、Kilburn、Acton、Stanmore、Woburn 差在哪、各適合誰，用官方規格表一次比清楚，看完就知道你該買哪一台。"
 tags: ["藍牙喇叭", "Marshall", "音響", "無線喇叭", "3C推薦"]
@@ -9,15 +10,15 @@ slug: "marshall-bluetooth-speaker-guide"
 author: "王侑強 / GearLab"
 faq:
   - q: "Marshall 藍牙喇叭防水嗎？"
-    a: "看系列。攜帶型的 Willen II、Emberton III、Middleton II 都是 IP67 防塵防水（官方標示可在 1 公尺水深浸泡 30 分鐘），Kilburn III 是 IP54 防潑水；家用型 Acton、Stanmore、Woburn 需要插電使用，沒有防水設計，不要放浴室或戶外。"
+    a: "看系列。攜帶型的 Willen II、Emberton III、Middleton II 都是 IP67 防塵防水（官方標示可在 1 公尺水深浸泡 30 分鐘），Kilburn III 是 IP54 防潑水；家用型 Acton、Stanmore、Woburn（含第四代 Acton IV、Stanmore IV）需要插電使用，沒有防水設計，不要放浴室或戶外。"
   - q: "Emberton 和 Willen 差在哪？該買哪台？"
     a: "Willen II 是掌心大小的隨身款（0.36 kg、17+ 小時），主打輕便和背帶固定；Emberton III 大一號（0.67 kg、32+ 小時），有 True Stereophonic 360° 環繞聲場，音量和低音都更有餘裕。預算差距不大時，多數人從 Emberton III 開始比較不會後悔；Willen II 適合把「小和輕」放第一位的人。"
   - q: "Acton、Stanmore、Woburn 家用三兄弟怎麼選？"
-    a: "以空間大小對號入座：Acton III（30W 低音單體）適合書房、臥室這種小空間；Stanmore III（50W）適合一般客廳，多了 RCA 輸入可接黑膠唱盤；Woburn III（90W）給大客廳或開放空間，還多了 HDMI 輸入可以直接接電視當電視喇叭。"
+    a: "以空間大小對號入座：Acton（III 代 30W 低音、IV 代 60W）適合書房、臥室這種小空間；Stanmore（III 代 50W、IV 代 60W）適合一般客廳，有 RCA 輸入可接黑膠唱盤；Woburn III（90W）給大客廳或開放空間，還多了 HDMI 輸入可以直接接電視。Acton 與 Stanmore 已出第四代，官網目前 III、IV 兩代並售，差異見內文對照表。"
   - q: "Marshall 喇叭可以兩台配對成立體聲嗎？"
-    a: "大部分型號不行，這是 Marshall 和 Sonos、HomePod 那類多室音響的主要差異。官方明確標示 Acton III 無法兩台成對或編組；新款攜帶型（如 Kilburn III 的 Bluetooth 5.3 Auracast、Emberton III 的 LE Audio-ready）預留的是 Auracast 廣播分享，和傳統的立體聲配對不同。買前先確認你要的是哪種玩法。"
+    a: "傳統的「兩台配成左右聲道」多數型號不行。官方明確標示 Acton III 無法兩台成對或編組。第四代的 Acton IV、Stanmore IV 內建 Auracast，官方說明是可以當 Auracast 接收端，搭配 Marshall 的串流中樞 Heddon 讓多台喇叭同步播放同一首音樂——這是多台同步，官方沒有寫成左右聲道的立體聲配對。攜帶型的 Kilburn III（Bluetooth 5.3 Auracast）、Emberton III（LE Audio-ready）走的也是 Auracast 廣播分享。買前先確認你要的是哪種玩法。"
   - q: "Marshall 藍牙喇叭在台灣哪裡買比較有保障？"
-    a: "最單純的是 Marshall 台灣官網：台幣標價、全系列最齊、走台灣官方保固。momo、PChome、蝦皮商城上的授權經銷有時有活動價，下單前確認商品頁標明「公司貨／台灣保固」。個人賣場的平行輸入（水貨）雖然便宜，但保固通常只有店保，音響單價高、家用系列又是木質音箱，運送與售後風險要自己衡量。"
+    a: "最單純的是 Marshall 台灣官網：全系列與最新版本最齊、走台灣官方保固。momo、PChome、蝦皮商城上的授權經銷有時有活動價，下單前確認商品頁標明「公司貨／台灣保固」。個人賣場的平行輸入（水貨）雖然便宜，但保固通常只有店保，音響單價高、家用系列又是木質音箱，運送與售後風險要自己衡量。"
 cover:
   image: "/images/marshall/emberton-iii-official.jpg"
   alt: "Marshall Emberton III 藍牙喇叭（圖片來源：Marshall 官方網站）"
@@ -28,6 +29,8 @@ cover:
 ---
 
 > **實測說明：** 我還沒有入手 Marshall 實機（真的很想要），本文是我自己買前做功課的整理：所有規格、功能均取自 Marshall 官方網站的產品頁，重點放在「型號之間怎麼比、怎麼選」，不包含主觀音質評價。下單前請以官網商品頁的最新規格與售價為準。
+
+> **資料來源：** 型號與規格取自 [Marshall 官網喇叭總覽](https://www.marshall.com/tw/en/speakers) 與各產品頁（[Acton IV](https://www.marshall.com/us/en/product/acton-iv)、[Stanmore IV](https://www.marshall.com/us/en/product/stanmore-iv) 等），最後查證 2026-10-05。
 
 ---
 
@@ -43,11 +46,13 @@ Marshall 的藍牙喇叭大概是「一看外型就認得出來」的代表：�
 | 極致輕便、預算最省 | **Willen II** | 掌心大小 0.36 kg，有背帶好固定 |
 | 戶外要夠大聲、還能幫手機充電 | **Middleton II** | 攜帶型裡的大聲公，內建行動電源功能 |
 | 半移動使用（室內為主、偶爾搬動） | **Kilburn III** | 50+ 小時續航，USB-C PD 充電 |
-| 書房、臥室的桌面音響 | **Acton III** | 家用入門款，小空間剛剛好 |
-| 客廳主力、想接黑膠 | **Stanmore III** | 中階甜蜜點，有 RCA 輸入 |
+| 書房、臥室的桌面音響 | **Acton III／Acton IV** | 家用入門款，小空間剛剛好；IV 代多了 Auracast |
+| 客廳主力、想接黑膠 | **Stanmore III／Stanmore IV** | 中階款，兩代都有 RCA 輸入 |
 | 大空間、想順便當電視喇叭 | **Woburn III** | 旗艦款，有 HDMI 輸入 |
 
 > 👉 [到 Marshall 官網看完整系列與現行售價](https://linkgo.one/s/ChWeD)
+
+> **2026-10 更新：** Marshall 已推出第四代的 **Acton IV** 與 **Stanmore IV**，官網目前和第三代並列販售；Woburn 仍是 III 代。兩代規格差異整理在下方[家用型段落](#acton-iv--stanmore-iv-和第三代差在哪)。
 
 ---
 
@@ -103,7 +108,7 @@ Marshall 藍牙喇叭其實就兩大類，先選對「線」，再挑型號：
 
 ## 家用型怎麼選：Acton、Stanmore、Woburn 用空間大小對號
 
-家用三兄弟的長相幾乎一樣，差別在**功率、體積和輸入介面**——本質上就是「小、中、大」三個尺寸：
+家用三兄弟的長相幾乎一樣，差別在**功率、體積和輸入介面**——本質上就是「小、中、大」三個尺寸。先看三款第三代（Acton、Stanmore 的第四代另列在下一個表）：
 
 | | Acton III | Stanmore III | Woburn III |
 |---|---|---|---|
@@ -116,9 +121,34 @@ Marshall 藍牙喇叭其實就兩大類，先選對「線」，再挑型號：
 
 （規格來源：Marshall 官網各產品頁；三款皆為 Bluetooth 5.2、插電使用、無電池）
 
+### Acton IV / Stanmore IV 和第三代差在哪
+
+Acton 與 Stanmore 已有第四代，官網查證時（2026-10-05）III、IV 兩代同時在賣。Woburn 沒有第四代，仍是 Woburn III。以下第四代數字取自官網產品頁的規格表：
+
+| | Acton III | **Acton IV** | Stanmore III | **Stanmore IV** |
+|---|---|---|---|---|
+| **低音功率** | 30W | 60W | 50W | 60W |
+| **高音功率** | 2 × 15W | 2 × 25W | 2 × 15W | 2 × 25W |
+| **單體** | — | 4 吋低音 + 2 × 0.75 吋高音 | — | 5 吋低音 + 2 × 0.75 吋高音 |
+| **最大音壓** | 95 dB | 95 dB | 97 dB | 97 dB |
+| **重量** | 2.85 kg | 2.65 kg | 4.25 kg | 3.99 kg |
+| **藍牙** | 5.2 | 5.3 + Auracast | 5.2 | 5.3 + Auracast |
+| **編碼** | — | SBC、AAC、LDAC、LC3 | — | SBC、AAC、LDAC、LC3 |
+| **有線輸入** | 3.5mm | 3.5mm（RCA 見下方說明） | 3.5mm、RCA | 3.5mm、RCA |
+
+（第四代來源：[Acton IV 產品頁](https://www.marshall.com/us/en/product/acton-iv)、[Stanmore IV 產品頁](https://www.marshall.com/us/en/product/stanmore-iv)；「—」為本文未查證的欄位，不代表沒有）
+
+從官方規格讀得出來的三個差異：
+
+- **擴大機功率變大，但最大音壓沒變**：兩款第四代都是 60W 低音 + 2 × 25W 高音，官方標示的最大音壓卻和第三代相同（Acton 95 dB、Stanmore 97 dB）。官方對第四代的說法是高音單體、導波器與低音反射孔重新設計，聲音散得更開、低音更乾淨——也就是改的是聲場與低音品質，不是「更大聲」。
+- **多了 Auracast 多喇叭同步**：第四代是 Auracast 接收端，官方說明可搭配 Marshall 的串流中樞 **Heddon**，讓多台喇叭同步播放。要留意兩點：這是「多台播同一首」，官方沒有寫成左右聲道配對；另外查證時台灣官網的家用喇叭列表沒有列出 Heddon，想靠它組多房間的人請先確認買不買得到。
+- **Acton IV 的 RCA 輸入，官網兩處寫法不一致**：Acton IV 的功能說明與常見問題寫有新增 RCA 輸入、可接黑膠唱盤（需另備唱頭前級），但同一頁規格表的「Wired connectivity」只列 AUX 3.5 mm。為了接唱盤才買 Acton IV 的人，下單前請以商品頁與實機背板為準。Stanmore IV 的規格表則明列 AUX 3.5 mm 與 RCA。
+
+**III 代還是 IV 代？** 從規格看：要 Auracast、LDAC 或之後想擴充多台同步，選 IV 代；只是單台藍牙播放，兩代的最大音壓相同，可以直接比兩代當下的售價。兩代的價差會隨通路變動，本文不列金額。
+
 挑選邏輯三句話講完：
 
-- **Acton III**：書桌或床頭櫃上的個人音響。注意它**只有 3.5mm 輸入、沒有 RCA**，想接黑膠唱盤的人直接跳過；官方也明示它無法兩台配對成對。有「Placement Correction」擺位校正，靠牆擺可以用 App 修正低音。
+- **Acton III**：書桌或床頭櫃上的個人音響。注意它**只有 3.5mm 輸入、沒有 RCA**，想接黑膠唱盤的人請看 Stanmore，或確認 Acton IV 的輸入介面（見上方說明）；官方也明示 Acton III 無法兩台配對成對。有「Placement Correction」擺位校正，靠牆擺可以用 App 修正低音。
 - **Stanmore III**：多數人客廳的甜蜜點。50W 低音餵一般客廳很足，**多了 RCA 輸入**，接唱盤、老音源都方便。
 - **Woburn III**：90W 低音 + 獨立中音單體，是給大空間的旗艦。它獨有的 **HDMI 輸入**代表可以直接接電視——想用一台喇叭同時處理「聽音樂 + 看電影」的人，這是三兄弟裡唯一的選擇。
 
@@ -129,11 +159,27 @@ Marshall 藍牙喇叭其實就兩大類，先選對「線」，再挑型號：
 
 ---
 
+## 官網上還有哪些型號？（本文沒有細比）
+
+「Marshall 型號」不只上面七個。官網喇叭頁目前分成 Portable、Home、TV Sound、Party 四類，除了本文比較的主力款，查證時還列有：
+
+| 型號 | 官網列在哪一類 | 備註 |
+|---|---|---|
+| Stockwell III | Portable | Stockwell II 也還在列表上 |
+| Tufton | Portable | — |
+| Emberton II、Kilburn II | Portable | 上一代，與 III 代並列販售 |
+| Bromley 150／450／750 | Portable（Party） | Bromley 150 在台灣站標示 Coming soon |
+| Heston 60／120、Heston Sub 200 | Home（TV Sound） | 電視用聲霸與重低音 |
+
+這幾款本文沒有逐項查規格，所以不做比較、也不給建議；有需要請直接看官網產品頁。
+
+---
+
 ## 下單前的四個檢查點（避雷區）
 
 1. **防水等級看清楚**：IP67（Willen / Emberton / Middleton）可以泡水，IP54（Kilburn III）只防潑水，家用系列完全沒有防水。放浴室聽歌請選 IP67。
 2. **家用系列不能帶出門**：Acton / Stanmore / Woburn 沒有電池，拔掉插頭就沒聲音。造型再美也不要幻想帶去露營。
-3. **想組立體聲的先做功課**：Marshall 走的是「一台打天下」路線，Acton III 官方明示無法成對；想要多房間、多喇叭串聯的生態系，這個品牌可能不適合你。
+3. **想組立體聲的先做功課**：Marshall 以單台使用為主，Acton III 官方明示無法成對；第四代 Acton IV、Stanmore IV 才加入 Auracast 多喇叭同步（官方說明需搭配 Heddon 等廣播端）。想要多房間串聯的人，先確認你看的是哪一代、以及廣播端在台灣買不買得到。
 4. **買代理貨還是水貨**：音響類單價高、又有木質音箱（家用系列），保固和運送風險比小配件高得多。官網購買走台灣官方通路，保固查詢和售後都單純。
 
 ---
@@ -144,21 +190,21 @@ Marshall 在台灣的購買管道大致三種，差別在**保固**和**價格�
 
 | 通路 | 保固 | 特點 |
 |---|---|---|
-| **Marshall 台灣官網** | 台灣官方保固 | 台幣（NT$）標價、全系列與最新版本最齊，售後最單純 |
+| **Marshall 台灣官網** | 台灣官方保固 | 全系列與最新版本最齊，售後最單純；標價幣別以結帳頁顯示為準 |
 | momo / PChome / 蝦皮商城授權經銷 | 公司貨保固（下單前確認標示） | 偶有活動價、可搭平台優惠券與信用卡回饋 |
 | 個人賣場平行輸入（水貨） | 通常只有店保 | 價格最低，但音響體積大、木質音箱運送風險與售後都要自己扛 |
 
 給台灣買家的兩個建議：
 
 1. **高單價音響優先買公司貨**——喇叭不像充電線壞了再買一條就好，保固期內能送修的差價通常值得付。在電商平台下單前，認明商品頁的「公司貨／台灣保固」字樣與統一發票。
-2. **售價以官網為準再比價**——Marshall 改版頻率不低（本文的 III 代都是近年更新），先到官網確認現行版本與台幣定價，再去比電商活動價，才不會買到舊版還以為撿到便宜。
+2. **售價以官網為準再比價**——Marshall 改版頻率不低（Acton、Stanmore 已出到 IV 代，且新舊代並售），先到官網確認現行版本與定價，再去比電商活動價，才不會買到舊版還以為撿到便宜。
 
 ## 總結
 
 Marshall 選購其實就兩個問題：**「會不會離開插座？」** 決定攜帶型或家用型；**「多大的空間／多遠的路？」** 決定尺寸。
 
 - 帶出門：預算省選 **Willen II**，均衡選 **Emberton III**，要大聲選 **Middleton II**
-- 放家裡：小房間 **Acton III**，客廳 **Stanmore III**，大空間或要接電視 **Woburn III**
+- 放家裡：小房間 **Acton**（III／IV），客廳 **Stanmore**（III／IV），大空間或要接電視 **Woburn III**
 - 介於中間（家裡為主、偶爾移動）：**Kilburn III**
 
 型號和售價會隨改版變動，出手前建議到官網確認現行版本：
@@ -166,5 +212,9 @@ Marshall 選購其實就兩個問題：**「會不會離開插座？」** 決定
 > 🛒 [Marshall 台灣官網：看全系列現行售價](https://linkgo.one/s/ChWeD)
 
 ---
+
+**更新紀錄**
+
+- 2026-10-06：依 Marshall 官網重新查證型號（查證日 2026-10-05）。新增 Acton IV、Stanmore IV 與第三代的規格對照；更新「能不能多台配對」的說明（第四代支援 Auracast 多喇叭同步）；新增官網其他型號一覽；移除「官網以台幣標價」的敘述（查證時無法確認標價幣別）。
 
 *本站其他選購指南：[GaN 充電器怎麼挑](/posts/best-gan-charger-2026/)・[Type-C 充電線怎麼挑](/posts/usb-c-charging-cable/)・[iPad 配件新手指南](/posts/best-ipad-accessories-2026/)*
