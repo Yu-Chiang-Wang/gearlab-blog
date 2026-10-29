@@ -17,7 +17,7 @@ faq:
     a: "兩者不是同一類產品，先決定「會不會離開插座」。Acton III 是插電使用的家用型，沒有電池也沒有防水，適合固定放在書房、臥室；Emberton III 是內建電池、IP67 防塵防水的攜帶型，適合帶著走。放在家裡桌面選 Acton III，需要帶出門選 Emberton III。家用三款（Acton、Stanmore、Woburn）的空間對應在全系列選購指南有完整整理。"
 ---
 
-> 本文含分潤連結（Marshall 官方網站聯盟連結）。如您透過連結完成購買，作者將獲得分潤回饋，實際售價與一般購買相同。
+> 本文含蝦皮分潤連結（蝦皮商城「Marshall 官方旗艦」賣場），如您透過連結完成購買，作者將獲得分潤回饋，實際售價與一般購買相同。
 
 ---
 
@@ -138,7 +138,7 @@ Middleton II 官方標示的電源輸入是「USB-C 5V/9V/12V/20V-3A」。四個
 3. **想知道誰比較大聲、低音誰厚，去試聽**：這是規格表答不了的問題。
 4. **確認公司貨與台灣保固**：通路比較見[全系列指南](/posts/marshall-bluetooth-speaker-guide/)的「在台灣怎麼買」。
 
-> 👉 [Marshall 台灣官網：查看 Emberton III 與 Middleton II 現行售價](https://linkgo.one/s/ChWeD)
+> 👉 蝦皮「Marshall 官方旗艦」現行售價：[Emberton III](https://s.shopee.tw/9fM3FJLffG)｜[Middleton II](https://s.shopee.tw/LoO89vCc6)
 
 ---
 
@@ -168,3 +168,7 @@ Middleton II 官方標示的電源輸入是「USB-C 5V/9V/12V/20V-3A」。四個
 - 🔊 **四個攜帶型與三個家用型一次比** → [Marshall 藍牙喇叭怎麼選？從 Emberton 到 Woburn 全系列一次搞懂](/posts/marshall-bluetooth-speaker-guide/)
 - 🔁 **Emberton 要不要買舊款** → [Marshall Emberton III 和 II 差在哪？舊款還在賣，該省這筆嗎](/posts/marshall-emberton-iii-vs-ii/)
 - 🎧 **瓦數、頻率響應怎麼看** → [喇叭音質怎麼判斷](/posts/how-to-judge-sound-quality/)
+
+## 更新紀錄
+
+- 2026-10-30：購買連結由 Marshall 官網聯盟連結改為蝦皮商城「Marshall 官方旗艦」賣場的型號連結（台灣官網不提供線上購買，見 2026-10-10 查證）。規格與內文未變。

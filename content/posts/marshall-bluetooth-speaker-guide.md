@@ -24,7 +24,7 @@ cover:
   alt: "Marshall Emberton III 藍牙喇叭（圖片來源：Marshall 官方網站）"
 ---
 
-> 本文含分潤連結（Marshall 官方網站聯盟連結）。如您透過連結完成購買，作者將獲得分潤回饋，實際售價與一般購買相同。
+> 本文含蝦皮分潤連結（蝦皮商城「Marshall 官方旗艦」賣場），如您透過連結完成購買，作者將獲得分潤回饋，實際售價與一般購買相同。
 
 ---
 
@@ -50,7 +50,7 @@ Marshall 的藍牙喇叭大概是「一看外型就認得出來」的代表：�
 | 客廳主力、想接黑膠 | **Stanmore III／Stanmore IV** | 中階款，兩代都有 RCA 輸入 |
 | 大空間、想順便當電視喇叭 | **Woburn III** | 旗艦款，有 HDMI 輸入 |
 
-> 👉 [到 Marshall 官網看完整系列與現行售價](https://linkgo.one/s/ChWeD)
+> 👉 攜帶型三款在蝦皮「Marshall 官方旗艦」：[Willen II](https://s.shopee.tw/9pfTRcL2LK)｜[Emberton III](https://s.shopee.tw/9fM3FJLffG)｜[Middleton II](https://s.shopee.tw/LoO89vCc6)
 
 > **2026-10 更新：** Marshall 已推出第四代的 **Acton IV** 與 **Stanmore IV**，官網目前和第三代並列販售；Woburn 仍是 III 代。兩代規格差異整理在下方[家用型段落](#acton-iv--stanmore-iv-和第三代差在哪)。
 
@@ -102,7 +102,7 @@ Marshall 藍牙喇叭其實就兩大類，先選對「線」，再挑型號：
 ![Marshall Kilburn III 攜帶型藍牙喇叭](/images/marshall/kilburn-iii-official.jpg)
 *續航 50+ 小時的 Kilburn III，用 USB-C PD 充電（圖片來源：Marshall 官方網站）*
 
-> 👉 [攜帶型全系列與售價：Marshall 官網](https://linkgo.one/s/ChWeD)
+> 👉 蝦皮「Marshall 官方旗艦」看現行售價：[Willen II](https://s.shopee.tw/9pfTRcL2LK)｜[Emberton III](https://s.shopee.tw/9fM3FJLffG)｜[Middleton II](https://s.shopee.tw/LoO89vCc6)
 
 ---
 
@@ -155,7 +155,7 @@ Acton 與 Stanmore 已有第四代，官網查證時（2026-10-05）III、IV 兩
 ![Marshall Stanmore III 家用藍牙喇叭](/images/marshall/stanmore-iii-official.jpg)
 *家用中階款 Stanmore III，多了 RCA 輸入（圖片來源：Marshall 官方網站）*
 
-> 👉 [家用系列全部型號與售價：Marshall 官網](https://linkgo.one/s/ChWeD)
+> 家用系列本文暫不放購買連結；可用台灣官網商品頁的「Find a retailer」查詢經銷商。
 
 ---
 
@@ -180,7 +180,7 @@ Acton 與 Stanmore 已有第四代，官網查證時（2026-10-05）III、IV 兩
 1. **防水等級看清楚**：IP67（Willen / Emberton / Middleton）可以泡水，IP54（Kilburn III）只防潑水，家用系列完全沒有防水。放浴室聽歌請選 IP67。
 2. **家用系列不能帶出門**：Acton / Stanmore / Woburn 沒有電池，拔掉插頭就沒聲音。造型再美也不要幻想帶去露營。
 3. **想組立體聲的先做功課**：Marshall 以單台使用為主，Acton III 官方明示無法成對；第四代 Acton IV、Stanmore IV 才加入 Auracast 多喇叭同步（官方說明需搭配 Heddon 等廣播端）。想要多房間串聯的人，先確認你看的是哪一代、以及廣播端在台灣買不買得到。
-4. **買代理貨還是水貨**：音響類單價高、又有木質音箱（家用系列），保固和運送風險比小配件高得多。官網購買走台灣官方通路，保固查詢和售後都單純。
+4. **買代理貨還是水貨**：音響類單價高、又有木質音箱（家用系列），保固和運送風險比小配件高得多。認明商品頁標示「公司貨／台灣保固」，保固查詢和售後都單純。
 
 ---
 
@@ -191,7 +191,7 @@ Marshall 在台灣的購買管道，差別在**保固**和**價格彈性**。先
 | 通路 | 保固 | 特點 |
 |---|---|---|
 | **Marshall 台灣官網** | 不提供線上購買 | 查現行型號、規格與官方美元標價用 |
-| momo / PChome / 蝦皮商城授權經銷 | 公司貨保固（下單前確認標示） | 偶有活動價、可搭平台優惠券與信用卡回饋 |
+| momo / PChome / 蝦皮商城（含「Marshall 官方旗艦」賣場）與授權經銷 | 公司貨保固（下單前確認標示） | 偶有活動價、可搭平台優惠券與信用卡回饋 |
 | 個人賣場平行輸入（水貨） | 通常只有店保 | 價格最低，但音響體積大、木質音箱運送風險與售後都要自己扛 |
 
 給台灣買家的兩個建議：
@@ -207,9 +207,9 @@ Marshall 選購其實就兩個問題：**「會不會離開插座？」** 決定
 - 放家裡：小房間 **Acton**（III／IV），客廳 **Stanmore**（III／IV），大空間或要接電視 **Woburn III**
 - 介於中間（家裡為主、偶爾移動）：**Kilburn III**
 
-型號和售價會隨改版變動，出手前建議到官網確認現行版本：
+型號和售價會隨改版變動，出手前建議先到官網確認現行版本，再比對通路售價：
 
-> 🛒 [Marshall 台灣官網：看全系列現行售價](https://linkgo.one/s/ChWeD)
+> 🛒 蝦皮「Marshall 官方旗艦」：[Willen II](https://s.shopee.tw/9pfTRcL2LK)｜[Emberton III](https://s.shopee.tw/9fM3FJLffG)｜[Middleton II](https://s.shopee.tw/LoO89vCc6)
 
 ---
 
@@ -217,5 +217,6 @@ Marshall 選購其實就兩個問題：**「會不會離開插座？」** 決定
 
 - 2026-10-06：依 Marshall 官網重新查證型號（查證日 2026-10-05）。新增 Acton IV、Stanmore IV 與第三代的規格對照；更新「能不能多台配對」的說明（第四代支援 Auracast 多喇叭同步）；新增官網其他型號一覽；移除「官網以台幣標價」的敘述（查證時無法確認標價幣別）。
 - 2026-10-10：更正「在台灣怎麼買」與常見問題中關於台灣官網的說明。查證 Emberton III、Middleton II、Acton IV 的台灣官網商品頁，皆以美元標價、僅提供經銷商查詢、沒有線上購買功能，故不再把官網列為可直接下單並享台灣官方保固的通路。
+- 2026-10-30：購買連結由 Marshall 官網聯盟連結改為蝦皮商城「Marshall 官方旗艦」賣場的型號連結（台灣官網不提供線上購買，見 2026-10-10 查證）。規格與內文未變。
 
 *本站其他選購指南：[GaN 充電器怎麼挑](/posts/best-gan-charger-2026/)・[Type-C 充電線怎麼挑](/posts/usb-c-charging-cable/)・[iPad 配件新手指南](/posts/best-ipad-accessories-2026/)*

@@ -17,7 +17,7 @@ faq:
     a: "依 Marshall 官方支援頁，Stack 模式只在 Emberton II、Middleton（一代）與 Willen（一代）上提供，這三款可以互相串聯；Willen II 不在名單裡，所以不能用 Stack 跟一代串在一起。Willen II 官方標示為「Bluetooth LE Audio-ready」，說法是未來可透過 Auracast 分享音訊，目前不等於能和舊款串聯。"
 ---
 
-> 本文含分潤連結（Marshall 官方網站聯盟連結）。如您透過連結完成購買，作者將獲得分潤回饋，實際售價與一般購買相同。
+> 本文含蝦皮分潤連結（蝦皮商城「Marshall 官方旗艦」賣場），如您透過連結完成購買，作者將獲得分潤回饋，實際售價與一般購買相同。
 
 ---
 
@@ -39,7 +39,7 @@ Willen II 是 Marshall 在 2024 年 8 月和 Emberton III 一起發表的新一�
 | 手上已有一代 Willen（或 Emberton II、Middleton 一代），想加一台串聯 | **Willen 一代** | Stack 模式只有 Emberton II、Middleton 一代、Willen 一代支援；Willen II 不在名單裡 |
 | 想要未來的 Auracast 分享 | **Willen II** | 官方標示 Bluetooth 5.3 LE、「LE Audio-ready」；一代是藍牙 5.1，官方未標示 LE Audio |
 
-> 👉 [到 Marshall 官網確認 Willen 現行款式與售價](https://linkgo.one/s/ChWeD)
+> 👉 [蝦皮「Marshall 官方旗艦」：Willen II 現行售價](https://s.shopee.tw/9pfTRcL2LK)（一代查證時已停售）
 
 ## 兩代規格逐項對照
 
@@ -120,7 +120,7 @@ Willen II 的官方說法是「Bluetooth LE Audio-ready」，未來可以透過 
 
 下單前認明兩件事：商品頁有「公司貨／台灣保固」字樣、開立統一發票。舊款一代特別容易遇到平行輸入，保固通常只有店保。
 
-> 👉 [Marshall 官網：查看 Willen II 規格與現行售價](https://linkgo.one/s/ChWeD)
+> 👉 [蝦皮「Marshall 官方旗艦」：Willen II](https://s.shopee.tw/9pfTRcL2LK)
 
 ## 還沒決定要不要買 Willen 這個尺寸？
 
@@ -143,3 +143,4 @@ Willen 是 Marshall 攜帶型裡最小的一台（0.36 kg），單顆 2 吋單�
 ## 更新紀錄
 
 - 2026-10-26：初版。依 Marshall 美國官網 Willen／Willen II 商品頁、官方 Stack mode 支援頁與 Marshall Group 2024-08-19 新品發表整理。
+- 2026-10-30：購買連結由 Marshall 官網聯盟連結改為蝦皮商城「Marshall 官方旗艦」賣場的型號連結（台灣官網不提供線上購買，見 2026-10-10 查證）。規格與內文未變。
