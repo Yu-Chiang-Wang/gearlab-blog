@@ -1,0 +1,8 @@
+{{- /* 分潤連結一律加 rel="sponsored nofollow noopener"（Google 對聯盟連結的標示要求）。
+       網域清單與 _partials/extend_head.html 的 AFFILIATE_HOSTS 一致，新增聯盟網域時兩邊都要加。
+       非分潤連結維持 Hugo 預設輸出。 */ -}}
+{{- $aff := slice "s.shopee.tw" "shopee.tw" "linkgo.one" "affclk.site" "tlcafftrax.com" "affclkr.com" "afftkr.site" -}}
+{{- $host := "" -}}
+{{- with urls.Parse .Destination }}{{ $host = strings.TrimPrefix "www." .Hostname }}{{ end -}}
+<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if in $aff $host }} rel="sponsored nofollow noopener"{{ end }}>{{ .Text }}</a>
+{{- /* 不留結尾換行，避免行內連結後多出空白 */ -}}
