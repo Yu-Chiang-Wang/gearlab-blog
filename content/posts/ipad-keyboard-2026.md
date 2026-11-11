@@ -1,7 +1,7 @@
 ---
 title: "iPad 鍵盤推薦 2026：從入門到旗艦，4 款依使用場景對號入座"
 date: 2026-05-12T22:00:00+08:00
-lastmod: 2026-09-28T12:00:00+08:00
+lastmod: 2026-11-12T12:00:00+08:00
 draft: false
 description: "iPad 鍵盤怎麼選？從 Logitech K380 入門款到 Combo Touch、Apple 巧控鍵盤，附官方相容表：iPad Air M4／M3／M2、Air 4/5、iPad A16／第 10 代、iPad Pro M5／M4、iPad mini 各能用哪款，直接對號入座。"
 tags: ["iPad鍵盤", "iPad配件", "Logitech", "巧控鍵盤", "iPad推薦"]
@@ -251,6 +251,8 @@ Apple **沒有**為 iPad mini 推出原廠鍵盤，官網的說法是 iPad 與 A
 - **K380**（本文 No.1）：三設備切換，mini + 手機 + 電腦一起用最方便
 - **羅技 Keys-To-Go 2**：官網定位「極致便攜鍵盤，附保護蓋」，支援 iPadOS，可連最多三個裝置，適合跟 mini 一起塞進小包
 
+👉 [羅技 Keys-To-Go 2（蝦皮 Logitech 羅技官方旗艦館）](https://s.shopee.tw/5fqFAQdc6R)，商品頁標價 NT$2,590（2026-11-12 查，實際價格依顏色與活動浮動）
+
 mini 本身不能磁吸站立，搭配有支架功能的保護殼會比較好打字。
 
 > ℹ️ 羅技官網目前在 iPad 鍵盤頁列的是 K380 的後繼款 **Pebble Keys 2 K380s**；兩者都是藍牙三設備切換的輕巧鍵盤，買原版或後繼款都可以，以商品頁型號為準。
@@ -335,5 +337,6 @@ iPad 鍵盤的最優解因人而異：
 
 **更新紀錄**
 
+- 2026-11-12：iPad mini 段的 Keys-To-Go 2 補上蝦皮官方旗艦館連結與標價。
 - 2026-09-28（二）：**更正**：舊版實測說明寫 K380 為作者實際使用款型，經確認並非如此，已改為全文未實測，並移除 K380、Combo Touch 段落中的個人評分與第一手描述。
 - 2026-09-28：依 Apple、羅技台灣官網重新查證相容機型與售價。新增官方相容表與 iPad Air M4、Air 11／13 吋、iPad（A16）、iPad Pro M5、iPad mini 各節；更正 Folio Touch 相容機型（舊版誤植支援 iPad 第 10 代）；Apple 巧控鍵盤售價更新為官網現價。
