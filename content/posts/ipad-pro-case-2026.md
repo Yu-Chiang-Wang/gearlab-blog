@@ -20,8 +20,8 @@ itemlist:
   - name: "ESR 巧拼系列保護套"
     position: 2
     brand: "ESR"
-    description: "預算款輕薄支架殼，蝦皮規格選單有 iPad Pro 11／13 吋（M4／M5）選項"
-    url: "https://s.shopee.tw/4qCPRK1SAE"
+    description: "預算款輕薄支架殼，ESR 官方旗艦店商品標題列 iPad Pro 11／13（2024–2026）"
+    url: "https://s.shopee.tw/3LSKOCgPY1"
   - name: "Spigen Ultra Hybrid Pro"
     position: 3
     brand: "Spigen"
@@ -89,7 +89,7 @@ faq:
 | 用途 | 款型 | 參考價 | 相容標示（依商品名／官方） | 連結 |
 |---|---|---|---|---|
 | 確定相容、要原廠 | Apple 聰穎雙面夾 | 11 吋 NT$2,590／13 吋 NT$3,290（Apple 官網） | 官方標示 Pro M5 與 M4 | [Apple 官網](https://www.apple.com/tw/shop/ipad/accessories/cases-protection) |
-| 預算低、要支架 | ESR 巧拼系列保護套 | NT$400–600 | 規格選單有 Pro 11／13 吋（M4／M5）| [蝦皮](https://s.shopee.tw/4qCPRK1SAE) |
+| 預算低、要支架 | ESR 巧拼系列保護套 | NT$800 起（ESR 官方旗艦店，2026-11-12 查）| 商品標題列 Pro 11／13（2024–2026），下單前在規格選單確認 | [蝦皮](https://s.shopee.tw/3LSKOCgPY1) |
 | 透明、重視防摔 | Spigen Ultra Hybrid Pro | NT$1,690 | 規格選單有 Pro M4／M5 | [蝦皮](https://s.shopee.tw/6fe7hwrCdy) |
 | 當筆電用、要觸控板 | Logitech Combo Touch | NT$3,990（蝦皮，2026-09-28 查）| iPad Pro 13 吋 M4／M5 | [蝦皮](https://s.shopee.tw/40dIRn4cr9) |
 
@@ -101,11 +101,11 @@ faq:
 
 ### 預算款：ESR 巧拼系列保護套
 
-- 蝦皮商品頁的規格選單有 **iPad Pro 11 吋／13 吋（M4／M5）** 選項（2026-09-28 查）
+- ESR 官方旗艦店的商品標題列出 **iPad Pro 11／13（2024–2026）**，標價 NT$800 起（2026-11-12 查，依機型與款式而異）；**下單前請在規格選單確認有你的 Pro M4／M5 那一項**
 - 透明背蓋＋支架結構，是站上 [iPad Air 保護殼推薦](/posts/ipad-air-case-2026/) 的預算款同系列
 - ⚠️ 選單裡同時有 iPad Air 與舊款 Pro 的選項，**對照第一節的尺寸表選 Pro M4／M5 那一項**
 
-[在蝦皮查看 ESR 巧拼系列](https://s.shopee.tw/4qCPRK1SAE)
+[在蝦皮 ESR 官方旗艦店查看巧拼系列](https://s.shopee.tw/3LSKOCgPY1)
 
 ### 透明防摔：Spigen Ultra Hybrid Pro
 
@@ -159,4 +159,5 @@ MOFT Snap 磁吸平板支架商品名標示 9.7–13 吋平板適用，貼在殼
 
 ## 更新紀錄
 
+- 2026-11-12：ESR 巧拼系列的連結改指 ESR 官方旗艦店，售價更正為官方旗艦店標價 NT$800 起（舊版寫 NT$400–600，已不符現況），並調整相關的預算與定位文字。
 - 2026-10-07：首次發佈。尺寸與聰穎雙面夾價格、相容機型查證於 2026-09-28。
